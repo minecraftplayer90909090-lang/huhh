@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    CS Launcher Plus home content (mockup layout): banner, selected profile + EDIT + PLAY,
+    Masterix Plus home content (mockup layout): banner, selected profile + EDIT + PLAY,
     then the Browser Resources / Manager cards. The three rows are weight based (with
     minimum heights) so the pane always fits the available height on phones.
 -->

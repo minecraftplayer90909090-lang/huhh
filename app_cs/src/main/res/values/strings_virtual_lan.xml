@@ -52,7 +52,7 @@
     <string name="vlan_session_code">Session code</string>
     <string name="vlan_copy_code">Copy code</string>
     <string name="vlan_share_invite">Share invitation</string>
-    <string name="vlan_invite_text">%1$s invited you to a Minecraft LAN world on CS Launcher Plus.\nOpen Virtual LAN Multiplayer → Join Session and enter this code:\n%2$s</string>
+    <string name="vlan_invite_text">%1$s invited you to a Minecraft LAN world on Masterix Plus.\nOpen Virtual LAN Multiplayer → Join Session and enter this code:\n%2$s</string>
     <string name="vlan_copied_code">Session code copied</string>
     <string name="vlan_copied_address">Address copied</string>
     <string name="vlan_copied_diagnostics">Diagnostics copied to clipboard</string>
@@ -180,9 +180,9 @@
     <!-- beta notice -->
     <string name="vlan_beta">Beta</string>
     <string name="vlan_beta_title">Virtual LAN is in beta</string>
-    <string name="vlan_beta_body">If joining doesn\'t work or nothing happens, send us the logs: they help us fix it. Tap Send logs after trying, pick Discord (or any app) and share the file with the Craft Studio team. Nothing private is included \u2014 only the Virtual LAN status and the launcher log.</string>
+    <string name="vlan_beta_body">If joining doesn\'t work or nothing happens, send us the logs: they help us fix it. Tap Send logs after trying, pick Discord (or any app) and share the file with the AbhayTheMaster team. Nothing private is included \u2014 only the Virtual LAN status and the launcher log.</string>
     <string name="vlan_send_logs">Send logs</string>
     <string name="vlan_diagnostics_copy">Copy diagnostics</string>
-    <string name="vlan_report_title">CS Launcher Plus \u2014 Virtual LAN report</string>
+    <string name="vlan_report_title">Masterix Plus \u2014 Virtual LAN report</string>
     <string name="vlan_report_failed">Could not prepare the report</string>
 </resources>

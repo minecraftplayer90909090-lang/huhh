@@ -601,7 +601,7 @@ public class CsEngineModsFragment extends Fragment {
         HttpURLConnection c = (HttpURLConnection) new URL(url).openConnection();
         c.setConnectTimeout(15000);
         c.setReadTimeout(30000);
-        c.setRequestProperty("User-Agent", "CS-Launcher-Plus (CS Engine mod browser)");
+        c.setRequestProperty("User-Agent", "Masterix-Plus (Masterix Engine mod browser)");
         c.setInstanceFollowRedirects(true);
         return c;
     }

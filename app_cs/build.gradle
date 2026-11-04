@@ -81,11 +81,11 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.craftstudio.cslauncher"
+        applicationId "com.abhaythemaster.masterixplus"
         minSdkVersion 21
         targetSdkVersion 36
         versionCode getDateSeconds()
-        versionName "1.4"
+        versionName "2.7"
         multiDexEnabled false //important
         resValue 'string', 'curseforge_api_key', getCFApiKey()
         resValue 'string', 'group_id', 'git.artdeell'
@@ -122,8 +122,8 @@ android {
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.customDebug
-            resValue 'string', 'application_package', 'com.craftstudio.cslauncher.debug'
-            resValue 'string', 'storageProviderAuthorities', 'com.craftstudio.cslauncher.scoped.gamefolder.debug'
+            resValue 'string', 'application_package', 'com.abhaythemaster.masterixplus.debug'
+            resValue 'string', 'storageProviderAuthorities', 'com.abhaythemaster.masterixplus.scoped.gamefolder.debug'
         }
         proguard {
             initWith debug
@@ -143,8 +143,8 @@ android {
             // defaultConfig already set
             // multiDexEnabled = true
             // debuggable = true
-            resValue 'string', 'storageProviderAuthorities', 'com.craftstudio.cslauncher.scoped.gamefolder'
-            resValue 'string', 'application_package', 'com.craftstudio.cslauncher'
+            resValue 'string', 'storageProviderAuthorities', 'com.abhaythemaster.masterixplus.scoped.gamefolder'
+            resValue 'string', 'application_package', 'com.abhaythemaster.masterixplus'
         }
         gplay {
             initWith release

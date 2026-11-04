@@ -56,7 +56,7 @@
             android:fontFamily="@font/noto_sans_bold"
             android:textColor="#F2F5FA"
             android:textSize="22sp"
-            tools:text="Welcome to CS Launcher Plus" />
+            tools:text="Welcome to Masterix Plus" />
 
         <TextView
             android:id="@+id/tut_setup_subtitle"

@@ -340,7 +340,7 @@ public final class BrandingPackGenerator {
         JsonArray description = new JsonArray();
         description.add("");
         description.add(component("\u2726 ", "#C6C6CE", false));
-        description.add(component("Craft Studio Look", "white", true));
+        description.add(component("AbhayTheMaster Look", "white", true));
         description.add(component(" \u00b7 " + facts.versionId, "#9C9CA4", false));
         description.add(component("\nMenus, widgets & screens in the launcher style", "gray", false));
         pack.add("description", description);
@@ -359,7 +359,7 @@ public final class BrandingPackGenerator {
 
     private static String marker(String stamp, ClientJarFacts facts, List<String> files) {
         JsonObject root = new JsonObject();
-        root.addProperty("owner", "CS Launcher Plus");
+        root.addProperty("owner", "Masterix Plus");
         root.addProperty("stamp", stamp);
         root.addProperty("generatorRevision", BrandingPack.GENERATOR_REVISION);
         root.addProperty("gameVersion", facts.versionId);

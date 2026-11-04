@@ -242,8 +242,8 @@
         <package android:name="git.mojo.angle"/>
         <package android:name="git.mojo.zink"/>
         <package android:name="git.mojo.mesa"/>
-        <package android:name="com.craftstudio.cslauncher"/>
-        <package android:name="com.craftstudio.cslauncher.debug"/>
-        <package android:name="com.craftstudio.cslauncher.pub"/>
+        <package android:name="com.abhaythemaster.masterixplus"/>
+        <package android:name="com.abhaythemaster.masterixplus.debug"/>
+        <package android:name="com.abhaythemaster.masterixplus.pub"/>
     </queries>
 </manifest>

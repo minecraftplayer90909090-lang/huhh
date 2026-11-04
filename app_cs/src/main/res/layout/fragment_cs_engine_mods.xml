@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- CS Engine mod browser: the Horizon registry (index.json) rendered in the CS design -->
+<!-- Masterix Engine mod browser: the Horizon registry (index.json) rendered in the CS design -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"

@@ -288,7 +288,7 @@ public class GameActivity extends BaseActivity implements ControlButtonMenuListe
 
             setIntent(activityIntent);
 
-            setTitle("CS Launcher Plus (" + version + ")");
+            setTitle("Masterix Plus (" + version + ")");
             mLaunchVersionId = version;
             brandLaunchScreen(version);
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- App name part -->
-    <string name="app_short_name">CS Launcher Plus</string>
-    <!-- Branding: CS Launcher Plus 1.4 by CRAFT STUDIO -->
-    <string name="brand_full_name">CS LAUNCHER PLUS 1.4</string>
-    <string name="brand_short_name">CS LAUNCHER PLUS</string>
-    <string name="brand_version">1.4</string>
-    <string name="brand_team_name">CRAFT STUDIO</string>
-    <string name="brand_team_tag">by CRAFT STUDIO</string>
+    <string name="app_short_name">Masterix Plus</string>
+    <!-- Branding: Masterix Plus v2.7 by AbhayTheMaster -->
+    <string name="brand_full_name">Masterix Plus</string>
+    <string name="brand_short_name">Masterix</string>
+    <string name="brand_version">v2.7</string>
+    <string name="brand_team_name">AbhayTheMaster</string>
+    <string name="brand_team_tag">by AbhayTheMaster</string>
     <string name="brand_tagline">Your Minecraft. Your way.</string>
     <!-- Home screen -->
     <string name="brand_tagline_home">PLAY BEYOND LIMITS</string>
-    <string name="brand_by_studio">BY CRAFT STUDIO</string>
+    <string name="brand_by_studio">BY ABHAYTHEMASTER</string>
     <string name="home_nav_home">Home</string>
     <string name="home_nav_browser">Browser Resources</string>
     <string name="home_nav_manager">Manager</string>
@@ -32,7 +32,7 @@
     <string name="home_downloading">Downloading</string>
     <string name="home_downloading_wait">Starting download…</string>
     <string name="settings_hub_title">Settings</string>
-    <string name="settings_hub_subtitle">Customize CS Launcher Plus</string>
+    <string name="settings_hub_subtitle">Customize Masterix Plus</string>
     <string name="home_play">PLAY</string>
     <string name="home_card_browser_title">BROWSER RESOURCES</string>
     <string name="home_card_browser_desc">Mods • Resource Packs • Shader Packs</string>
@@ -52,15 +52,15 @@
     <string name="home_overflow_share_logs">Share logs</string>
     <string name="home_overflow_gamepad">Gamepad mapper</string>
     <string name="home_overflow_about">About</string>
-    <string name="home_about_text">CS Launcher Plus 1.4\nby CRAFT STUDIO\n\nA Minecraft: Java Edition launcher for Android.</string>
+    <string name="home_about_text">Masterix Plus v2.7\nby AbhayTheMaster\n\nA Minecraft: Java Edition launcher for Android.</string>
     <string name="home_servers_soon">Servers are coming soon</string>
     <string name="home_logs_title">Launcher Logs</string>
     <string name="home_logs_empty">No log output yet</string>
     <string name="home_logs_share">Share log</string>
     <string name="home_version_subtitle_fmt">%1$s • %2$s</string>
     <string name="preference_category_about">About</string>
-    <string name="preference_about_title">CS Launcher Plus 1.4</string>
-    <string name="preference_about_summary">Developed by CRAFT STUDIO — a Minecraft: Java Edition launcher for Android</string>
+    <string name="preference_about_title">Masterix Plus v2.7</string>
+    <string name="preference_about_summary">Developed by AbhayTheMaster — a Minecraft: Java Edition launcher for Android</string>
 
     <!-- Action bar part -->
 
@@ -80,7 +80,7 @@
     <string name="alerttitle_installmod">Select a mod installer</string>
 
     <!-- Error messages -->
-    <string name="error_fatal">CS Launcher Plus has unexpectedly crashed</string>
+    <string name="error_fatal">Masterix Plus has unexpectedly crashed</string>
     <string name="error_no_version">No version!</string>
     <string name="error_show_more">Show more</string>
     <string name="error_show_less">Show less</string>
@@ -130,7 +130,7 @@
     <string name="mcl_setting_renderer_mesa_desktop">Mesa (DRM) - all versions</string>
     <string name="mcl_setting_renderer_mesa_desktop_ext">Mesa (DRM, external) - all versions</string>
     <string name="mcl_setting_renderer_mobileglues">MobileGlues (OpenGL ES) - 1.17+ only</string>
-    <string name="mcl_setting_renderer_csge">CSGE - Craft Studio Graphics Engine (Beta) - 1.17+ only</string>
+    <string name="mcl_setting_renderer_csge">CSGE - AbhayTheMaster Graphics Engine (Beta) - 1.17+ only</string>
     <string name="mcl_setting_renderer_sfpew">SFPEW/MobileGlues (OpenGL ES) - (all versions)</string>
     <string name="mcl_setting_veroption_release">Release</string>
     <string name="mcl_setting_veroption_snapshot">Snapshot</string>
@@ -353,7 +353,7 @@
     <string name="color_default_hex" translatable="false">FFFF0000</string>
     <string name="notif_channel_name">General</string>
     <string name="notif_channel_id" translatable="false">channel_id</string>
-    <string name="lazy_service_default_title">CS Launcher Plus Foreground Service</string>
+    <string name="lazy_service_default_title">Masterix Plus Foreground Service</string>
     <string name="mcl_setting_veroption_installed">Installed</string>
     <string name="use_global_default">(Use global default)</string>
     <string name="default_control">Default controlmap</string>
@@ -363,7 +363,7 @@
     <string name="progress_console_subtitle_unknown">%d active</string>
     <string name="progress_task_unknown">Working…</string>
     <string name="progress_task_indeterminate">Preparing…</string>
-    <string name="notification_progress_title">CS Launcher Plus</string>
+    <string name="notification_progress_title">Masterix Plus</string>
     <string name="notification_progress_text">Working…</string>
     <string name="notification_progress_sub">%1$d%% • %2$d task(s)</string>
     <string name="notification_terminate">Cancel</string>
@@ -405,7 +405,7 @@
     <string name="preference_gyro_sample_rate_description">If you have performance issues with gyroscope controls, increase this.</string>
     <string name="microsoft_login_retry_later">Too many requests, please try again later.</string>
     <string name="microsoft_login_generic">Error: %s</string>
-    <string name="storage_required">CS Launcher Plus requires external storage to be attached. Please reconnect it and restart the app.</string>
+    <string name="storage_required">Masterix Plus requires external storage to be attached. Please reconnect it and restart the app.</string>
     <string name="mcl_setting_title_buttonallcaps">Only use capital letters in button labels</string>
     <string name="mcl_setting_subtitle_buttonallcaps">Disable this if you want to use lowercase letters in your controls.</string>
     <string name="create_instance">Create new instance</string>
@@ -492,7 +492,7 @@
     <string name="modpack_download_downloading_mods">Downloading mods (%.2f MB / %.2f MB)</string>
     <string name="modpack_download_downloading_mods_fc">Downloading mods (File %d out of %d)</string>
     <string name="modpack_download_applying_overrides">Applying overrides (%d/%d)</string>
-    <string name="modpack_install_notification_title">CS Launcher Plus Modpack Installer</string>
+    <string name="modpack_install_notification_title">Masterix Plus Modpack Installer</string>
     <string name="modpack_install_notification_success">Click here to finish modpack installation</string>
     <string name="modpack_install_notification_data_not_available">Failed to download mod loader information</string>
     <string name="modpack_install_modloader_download_failed">Failed to download the mod loader files</string>
@@ -525,7 +525,7 @@
     <string name="preference_category_miscellaneous">Miscellaneous settings</string>
     <string name="preference_category_video">Video settings</string>
     <string name="notification_permission_dialog_title">Permission request</string>
-    <string name="notification_permission_dialog_text">CS Launcher Plus requires a permission to post notifications to prevent game/modpack downloads from stopping when you leave the app. Without this permission, Android may shut down your downloads when you put CS Launcher Plus in background mode.</string>
+    <string name="notification_permission_dialog_text">Masterix Plus requires a permission to post notifications to prevent game/modpack downloads from stopping when you leave the app. Without this permission, Android may shut down your downloads when you put Masterix Plus in background mode.</string>
     <string name="notification_permission_toast">You can always change your mind later by going into Settings</string>
     <string name="preference_ask_for_notification_title">Allow notifications</string>
     <string name="preference_ask_for_notification_description">Click to re-request the notification permission, required for game/modpack background downloads to work properly.</string>
@@ -964,7 +964,7 @@
     <string name="lib_modpack_install_started">Installing %1$s… follow the progress on the home screen</string>
     <string name="lib_modpack_any_version">Any version · loader comes with the pack</string>
     <string name="lib_clear_search">Clear search</string>
-    <string name="st_subtitle">Customize CS Launcher Plus to match your style</string>
+    <string name="st_subtitle">Customize Masterix Plus to match your style</string>
     <string name="st_control_description">Touch controls, layouts and behavior</string>
     <string name="preference_language_title">Launcher language</string>
     <string name="preference_language_description">Choose the language of the launcher text</string>
@@ -1088,7 +1088,7 @@
     <!-- About page -->
     <string name="about_title">About</string>
     <string name="about_back">Back</string>
-    <string name="about_blurb">A Minecraft: Java Edition launcher for Android, built with love by CRAFT STUDIO on the shoulders of the open source community.</string>
+    <string name="about_blurb">A Minecraft: Java Edition launcher for Android, built with love by AbhayTheMaster on the shoulders of the open source community.</string>
     <string name="about_version_fmt">Version %1$s</string>
     <string name="about_discord">Discord</string>
     <string name="about_discord_desc">Community &amp; support</string>
@@ -1097,7 +1097,7 @@
     <string name="about_github">GitHub</string>
     <string name="about_github_desc">Source code &amp; issues</string>
     <string name="about_section_built">BUILT ON</string>
-    <string name="about_section_built_sub">CS Launcher Plus would not exist without these projects. Huge thanks to their teams and contributors.</string>
+    <string name="about_section_built_sub">Masterix Plus would not exist without these projects. Huge thanks to their teams and contributors.</string>
     <string name="about_section_oss">OPEN SOURCE COMPONENTS</string>
     <string name="about_section_oss_sub">Libraries and runtimes shipped inside the launcher. Tap one to visit its project page.</string>
     <string name="about_section_services">ONLINE SERVICES</string>
@@ -1109,25 +1109,25 @@
     <string name="about_amethyst_desc">The official successor of PojavLauncher by the AngelAuraMC team. Many ideas and fixes in this launcher follow its lead.</string>
     <string name="about_mojo_desc">Upstream launcher this fork tracks: the instance system, GLFW and SDL backends and the modern Material 3 UI come from here.</string>
     <string name="about_legal_license">License</string>
-    <string name="about_legal_license_desc">CS Launcher Plus is free software under the GNU LGPL v3. You can study, modify and redistribute it.</string>
+    <string name="about_legal_license_desc">Masterix Plus is free software under the GNU LGPL v3. You can study, modify and redistribute it.</string>
     <string name="about_legal_privacy">Privacy policy</string>
     <string name="about_legal_privacy_desc">What the launcher does (and does not) do with your data.</string>
     <string name="about_legal_mojang">Not affiliated with Mojang</string>
     <string name="about_legal_mojang_desc">Minecraft is a trademark of Mojang Studios / Microsoft. This is an independent project and you need a legitimate account to play online.</string>
-    <string name="about_footer">Made with ❤ by CRAFT STUDIO and the open source community.\nThank you for playing.</string>
+    <string name="about_footer">Made with ❤ by AbhayTheMaster. Based on CS Launcher Plus by CRAFT STUDIO and the open source community.\nThank you for playing.</string>
     <string name="home_overflow_about_short">About</string>
-    <string name="st_about_title">About CS Launcher Plus</string>
+    <string name="st_about_title">About Masterix Plus</string>
     <string name="st_about_desc">Version, credits, open source licenses, Discord and GitHub</string>
     <!-- Privacy policy / welcome -->
     <string name="policy_eyebrow">BEFORE YOU START</string>
-    <string name="policy_title_welcome">Welcome to CS Launcher Plus</string>
+    <string name="policy_title_welcome">Welcome to Masterix Plus</string>
     <string name="policy_title_read">Privacy &amp; Terms</string>
     <string name="policy_subtitle">Please read the Terms of Use and Privacy Policy below. You need to accept them once before using the launcher.</string>
     <string name="policy_footnote">I have read and agree to the Terms of Use and Privacy Policy. I can read them again anytime from About.</string>
     <string name="policy_accept">I agree</string>
     <string name="policy_close">Close</string>
     <string name="policy_s1_title">We don\'t collect your data</string>
-    <string name="policy_s1_body">CS Launcher Plus has no analytics, no tracking and no servers of its own. Nothing about you, your device or how you play is sent to CRAFT STUDIO. Your accounts, settings, worlds and mods stay on your device, inside the app\'s private storage.</string>
+    <string name="policy_s1_body">Masterix Plus has no analytics, no tracking and no servers of its own. Nothing about you, your device or how you play is sent to CRAFT STUDIO. Your accounts, settings, worlds and mods stay on your device, inside the app\'s private storage.</string>
     <string name="policy_s2_title">Where the network is used</string>
     <string name="policy_s2_body">The internet is used only to download what you ask for: the game and its libraries from Mojang / Microsoft, Java runtimes, mod loaders (Forge, Fabric, Quilt, NeoForge), and content from Modrinth and CurseForge. Logging in talks directly to Microsoft, Xbox Live and Mojang (or Ely.by) — your password never passes through us.</string>
     <string name="policy_s3_title">Logs and crash reports</string>
@@ -1137,7 +1137,7 @@
     <string name="policy_s5_title">Third-party services</string>
     <string name="policy_s5_body">Microsoft, Mojang, Ely.by, Modrinth, CurseForge, mclo.gs and Discord are independent services governed by their own terms and privacy policies. Mods, modpacks, shaders and worlds are made by their authors; please respect their licenses.</string>
     <string name="policy_s6_title">Your responsibilities</string>
-    <string name="policy_s6_body">CS Launcher Plus is an independent project and is not affiliated with Mojang Studios or Microsoft. You need a legitimate Minecraft: Java Edition account to play online, and you agree to follow the Minecraft EULA. Offline profiles are for single-player and private servers you are allowed to join.</string>
+    <string name="policy_s6_body">Masterix Plus is an independent project and is not affiliated with Mojang Studios or Microsoft. You need a legitimate Minecraft: Java Edition account to play online, and you agree to follow the Minecraft EULA. Offline profiles are for single-player and private servers you are allowed to join.</string>
     <string name="policy_s7_title">Open source and updates</string>
     <string name="policy_s7_body">The launcher is free software under the GNU LGPL v3 — the full source is on GitHub. This policy may be updated with new versions; meaningful changes will be shown here again. Questions? Reach us on Discord or GitHub from the About page.</string>
     <!-- Share log popup -->
@@ -1186,11 +1186,11 @@
     <string name="ss_continue">Continue</string>
     <string name="ss_restarting">Restarting…</string>
     <string name="ss_footnote">The launcher restarts once after you choose a custom folder.</string>
-    <string name="ss_err_perm">All files access is still off. Tap Allow and switch it on for CS Launcher Plus.</string>
+    <string name="ss_err_perm">All files access is still off. Tap Allow and switch it on for Masterix Plus.</string>
     <string name="ss_err_unsupported">That location can\'t be used. Pick a folder on internal storage or the SD card.</string>
     <string name="ss_err_not_writable">Can\'t write in that folder. Try another one.</string>
-    <string name="ss_err_not_empty">That folder isn\'t empty and doesn\'t contain CS Launcher data. Pick an empty folder, or the folder you used before.</string>
-    <string name="ss_existing_data">Existing CS Launcher data found here \u2014 your profiles, worlds and versions will be used again.</string>
+    <string name="ss_err_not_empty">That folder isn\'t empty and doesn\'t contain Masterix data. Pick an empty folder, or the folder you used before.</string>
+    <string name="ss_existing_data">Existing Masterix data found here \u2014 your profiles, worlds and versions will be used again.</string>
     <string name="ss_err_pick_first">Pick a folder first, or go with the app folder.</string>
     <string name="auth_select_banner_sub">Choose how you want to sign in</string>
     <string name="auth_select_section_signin">SIGN IN WITH</string>
@@ -1231,26 +1231,26 @@
     <string name="ll_err_fix">Fix the name first — see the rules.</string>
     <!-- Discord invite popup -->
     <string name="di_eyebrow">COMMUNITY</string>
-    <string name="di_title">Join the CS Launcher Discord</string>
-    <string name="di_body">It\'s where CS Launcher players hang out — and it takes ten seconds to join.</string>
+    <string name="di_title">Join the Masterix Discord</string>
+    <string name="di_body">It\'s where Masterix players hang out — and it takes ten seconds to join.</string>
     <string name="di_perk_support_line"><b>Fast help</b> — crashes, mods, FPS: real people answer</string>
     <string name="di_perk_updates_line"><b>Early builds</b> — betas and release notes land there first</string>
     <string name="di_perk_packs_line"><b>Pack sharing</b> — show yours, grab ready-made ones</string>
     <string name="di_bubble_1">gg, it works! 🎉</string>
     <string name="di_bubble_2">new build is up 🚀</string>
-    <string name="di_hero_caption">Players and the CS team, one server</string>
+    <string name="di_hero_caption">Players and the Masterix team, one server</string>
     <string name="di_join">Join Discord</string>
     <string name="di_youtube">Also on YouTube</string>
     <string name="di_youtube_url" translatable="false">https://youtube.com/@craft-studio-official</string>
     <string name="yt_eyebrow">YOUTUBE</string>
-    <string name="yt_title">Watch CS Launcher on YouTube</string>
+    <string name="yt_title">Watch Masterix on YouTube</string>
     <string name="yt_body">Guides, modpack showcases and every new feature explained — straight from the team.</string>
     <string name="yt_perk_1"><b>Tutorials</b> — setup, mods, shaders and FPS tips step by step</string>
     <string name="yt_perk_2"><b>New features first</b> — see what\'s coming before it ships</string>
     <string name="yt_perk_3"><b>Showcases</b> — the best packs and builds from the community</string>
     <string name="yt_bubble_1">new video is out 🎬</string>
     <string name="yt_bubble_2">subscribe for more 🔔</string>
-    <string name="yt_hero_caption">Craft Studio Official on YouTube</string>
+    <string name="yt_hero_caption">AbhayTheMaster Official on YouTube</string>
     <string name="yt_subscribe">Open YouTube</string>
     <string name="yt_also_discord">Also on Discord</string>
     <string name="di_later">Maybe later</string>
@@ -1323,7 +1323,7 @@
     <string name="rp_tag_slow">SLOW</string>
     <string name="rp_tag_experimental">EXPERIMENTAL</string>
     <string name="rp_tag_beta">BETA</string>
-    <string name="rp_desc_csge">Craft Studio Graphics Engine — our own MobileGlues-based OpenGL on GLES renderer. New build: try vanilla first, then Sodium, then Iris.</string>
+    <string name="rp_desc_csge">AbhayTheMaster Graphics Engine — our own MobileGlues-based OpenGL on GLES renderer. New build: try vanilla first, then Sodium, then Iris.</string>
     <string name="policy_ai_title">Only the images are AI-generated</string>
     <string name="policy_ai_body">The illustrations, backgrounds and banners you see in the launcher were created with AI image tools. Nothing else is: the launcher itself, its features and these terms are made by CRAFT STUDIO. The artwork is decorative only and is not from Mojang / Microsoft.</string>
     <string name="policy_agree_first">Please tick the box to confirm you agree first.</string>
@@ -1333,9 +1333,9 @@
     <string name="policy_group_privacy">PRIVACY POLICY</string>
     <string name="policy_group_terms">TERMS OF USE</string>
     <string name="policy_t1_title">Acceptance of these terms</string>
-    <string name="policy_t1_body">By installing or using CS Launcher Plus you agree to these Terms of Use and the Privacy Policy. If you do not agree, please do not use the launcher. You must be old enough to use Minecraft and this app in your country, or have a parent or guardian\'s permission.</string>
+    <string name="policy_t1_body">By installing or using Masterix Plus you agree to these Terms of Use and the Privacy Policy. If you do not agree, please do not use the launcher. You must be old enough to use Minecraft and this app in your country, or have a parent or guardian\'s permission.</string>
     <string name="policy_t2_title">License and ownership</string>
-    <string name="policy_t2_body">CS Launcher Plus is free software licensed under the GNU LGPL v3 and built on the open-source PojavLauncher family. The CRAFT STUDIO name, logo and artwork are ours. Minecraft is a trademark of Mojang Studios / Microsoft; the launcher is not affiliated with, endorsed by or supported by them.</string>
+    <string name="policy_t2_body">Masterix Plus is free software licensed under the GNU LGPL v3 and built on the open-source PojavLauncher family. The CRAFT STUDIO name, logo and artwork are ours. Minecraft is a trademark of Mojang Studios / Microsoft; the launcher is not affiliated with, endorsed by or supported by them.</string>
     <string name="policy_t3_title">Acceptable use</string>
     <string name="policy_t3_body">Use the launcher only with game content you have the right to use. You agree not to use it to pirate the game, bypass account checks, cheat on servers that forbid it, or break the Minecraft EULA or the rules of any server, mod author or content platform. You are responsible for the mods, packs and worlds you install.</string>
     <string name="policy_t4_title">No warranty and limitation of liability</string>
@@ -1349,12 +1349,12 @@
     <!-- In-app updates -->
     <string name="preference_category_updates">Updates</string>
     <string name="preference_check_updates_title">Check for updates</string>
-    <string name="preference_check_updates_description">Look for a newer CS Launcher Plus build on GitHub</string>
+    <string name="preference_check_updates_description">Look for a newer Masterix Plus build on GitHub</string>
     <string name="preference_check_updates_summary_fmt">Installed: %1$s \u2014 tap to check GitHub</string>
     <string name="preference_update_auto_title">Check automatically</string>
     <string name="preference_update_auto_description">Look for new builds when the launcher starts (at most every 6 hours)</string>
     <string name="preference_update_channel_title">Update channel</string>
-    <string name="upd_eyebrow">Craft Studio \u00b7 CS Launcher Plus</string>
+    <string name="upd_eyebrow">AbhayTheMaster \u00b7 Masterix Plus</string>
     <string name="upd_available_title">Update available</string>
     <string name="upd_installed">Installed</string>
     <string name="upd_latest">Latest release</string>
@@ -1377,7 +1377,7 @@
     <string name="upd_ready_detail">Android will ask you to confirm. Your profiles, worlds and settings are kept.</string>
     <string name="upd_installer_open">Opening the Android installer\u2026</string>
     <string name="upd_need_permission">Permission needed</string>
-    <string name="upd_need_permission_detail">Allow CS Launcher Plus to install updates, then come back here.</string>
+    <string name="upd_need_permission_detail">Allow Masterix Plus to install updates, then come back here.</string>
     <string name="upd_install_cancelled">Installation cancelled \u2014 the downloaded update is kept for later.</string>
     <string name="upd_install_failed_fmt">Installation failed. %1$s</string>
     <string name="upd_no_asset_fmt">This release has no file for your installation (%1$s). You can get it from GitHub.</string>
@@ -1385,7 +1385,7 @@
     <string name="upd_checking_msg">Asking GitHub for the newest published build\u2026</string>
     <string name="upd_current_fmt">Installed: %1$s</string>
     <string name="upd_up_to_date_title">You\'re up to date</string>
-    <string name="upd_up_to_date_msg">%1$s is the newest CS Launcher Plus build.</string>
+    <string name="upd_up_to_date_msg">%1$s is the newest Masterix Plus build.</string>
     <string name="upd_none_published">No update information has been published yet. Check again after the next release.</string>
     <string name="upd_error_title">Update check failed</string>
     <string name="upd_error_check_fmt">Couldn\'t reach GitHub: %1$s. The launcher keeps working normally \u2014 try again later.</string>
@@ -1401,7 +1401,7 @@
     <!-- Startup sound -->
     <string name="preference_category_startup">Startup</string>
     <string name="preference_startup_sound_title">Startup sound</string>
-    <string name="preference_startup_sound_description">Short Craft Studio chime with the launcher intro (silent in silent/vibrate mode)</string>
+    <string name="preference_startup_sound_description">Short AbhayTheMaster chime with the launcher intro (silent in silent/vibrate mode)</string>
 
     <!-- Profile shortcuts -->
     <string name="shortcut_add">Add to home screen</string>
@@ -1499,7 +1499,7 @@
     <string name="cs_discord_status_error">Discord did not accept the update</string>
     <string name="cs_discord_status_error_desc">Check Discord → Settings → Activity Privacy → “Share your detected activities”</string>
     <string name="cs_discord_preview_eyebrow">LIVE PREVIEW</string>
-    <string name="cs_discord_preview_app_name" translatable="false">CS Launcher Plus</string>
+    <string name="cs_discord_preview_app_name" translatable="false">Masterix Plus</string>
     <string name="cs_discord_preview_elapsed">%1$s elapsed</string>
     <string name="cs_discord_button_discord" translatable="false">Join our Discord</string>
     <string name="cs_discord_button_youtube" translatable="false">YouTube channel</string>
@@ -1688,10 +1688,10 @@
     <string name="pt_slot_late">Late night</string>
     <!-- Official partners (partners/Partners) -->
     <string name="partner_badge_official">OFFICIAL PARTNER</string>
-    <string name="partner_cross_fmt">CS Launcher × %1$s</string>
+    <string name="partner_cross_fmt">Masterix × %1$s</string>
     <string name="partner_full_name_fmt">%1$s · Official partnership</string>
     <string name="partner_benefits_eyebrow">EXCLUSIVE</string>
-    <string name="partner_benefits_title">Partnership benefits for CS Launcher users</string>
+    <string name="partner_benefits_title">Partnership benefits for Masterix users</string>
     <string name="partner_standard_fmt">Standard cooldown: %1$s</string>
     <string name="partner_days">days</string>
     <string name="partner_link_failed">Could not open the link. Install Discord or a browser and try again.</string>
@@ -1699,37 +1699,37 @@
     <string name="partner_optl_name">OPTL</string>
     <string name="partner_optl_full_name">Official Pojav Tierlist</string>
     <string name="partner_optl_section_title">Official Partner – OPTL</string>
-    <string name="partner_optl_description">CS Launcher is the official launcher of OPTL, bringing players a better and more competitive PvP experience.</string>
+    <string name="partner_optl_description">Masterix is the official launcher of OPTL, bringing players a better and more competitive PvP experience.</string>
     <string name="partner_optl_explore">Explore OPTL</string>
     <string name="partner_optl_benefit_cooldown">5-Day Tier Testing Cooldown</string>
-    <string name="partner_optl_benefit_cooldown_detail">CS Launcher users get a reduced 5-day tier testing cooldown instead of the standard 7 days.</string>
+    <string name="partner_optl_benefit_cooldown_detail">Masterix users get a reduced 5-day tier testing cooldown instead of the standard 7 days.</string>
     <string name="partner_optl_benefit_recognition">Official OPTL launcher recognition</string>
-    <string name="partner_optl_benefit_recognition_detail">CS Launcher is recognised as the official launcher of OPTL.</string>
+    <string name="partner_optl_benefit_recognition_detail">Masterix is recognised as the official launcher of OPTL.</string>
     <string name="partner_optl_benefit_role">Exclusive collaboration role</string>
-    <string name="partner_optl_benefit_role_detail">A dedicated role on the OPTL Discord for the CS Launcher collaboration.</string>
+    <string name="partner_optl_benefit_role_detail">A dedicated role on the OPTL Discord for the Masterix collaboration.</string>
     <string name="partner_optl_benefit_ranks">Special server ranks</string>
-    <string name="partner_optl_benefit_ranks_detail">Special ranks on OPTL servers for CS Launcher players.</string>
+    <string name="partner_optl_benefit_ranks_detail">Special ranks on OPTL servers for Masterix players.</string>
     <string name="partner_optl_benefit_community">Access to the OPTL competitive PvP community</string>
     <string name="partner_optl_benefit_community_detail">Tier tests, events and the competitive Pojav PvP scene in one place.</string>
     <string name="partner_optl_join">JOIN OFFICIAL OPTL DISCORD</string>
     <string name="partner_optl_join_note">Join through this partnership announcement to claim exclusive collaboration perks and recognition.</string>
     <string name="rb_err_restricted">The author doesn\'t allow third-party downloads for this file. Get it from the CurseForge page in the launcher.</string>
     <string name="partners_title">Official Partners</string>
-    <string name="partners_subtitle">Communities and projects officially partnered with CS Launcher</string>
+    <string name="partners_subtitle">Communities and projects officially partnered with Masterix</string>
     <string name="partners_featured">FEATURED</string>
     <string name="partners_count_fmt">%1$d partner(s)</string>
     <string name="pm_title_launcher">Launcher closed after Virtual LAN disconnect</string>
     <string name="pm_body_intro_launcher">The launcher process ended right after Virtual LAN was disconnected, without a crash report. Android recorded why:</string>
 
     <!-- Horizon engine (Phase 2: install service) -->
-    <string name="horizon_install_title">Installing CS Engine</string>
+    <string name="horizon_install_title">Installing Masterix Engine</string>
     <string name="horizon_install_preparing">Preparing…</string>
-    <string name="horizon_install_done">CS Engine is ready</string>
-    <string name="horizon_install_failed">CS Engine install failed</string>
-    <string name="horizon_install_cancelled">CS Engine install cancelled</string>
+    <string name="horizon_install_done">Masterix Engine is ready</string>
+    <string name="horizon_install_failed">Masterix Engine install failed</string>
+    <string name="horizon_install_cancelled">Masterix Engine install cancelled</string>
     <string name="horizon_install_incomplete">The install finished but some files are missing. Try again.</string>
-    <string name="horizon_not_available">CS Engine is not available in this build or on this device (needs Android 9+ and a 64-bit processor).</string>
-    <string name="horizon_menu_title">CS Engine</string>
+    <string name="horizon_not_available">Masterix Engine is not available in this build or on this device (needs Android 9+ and a 64-bit processor).</string>
+    <string name="horizon_menu_title">Masterix Engine</string>
     <string name="horizon_menu_keyboard">Keyboard</string>
     <string name="horizon_menu_toggle_controls">Show / hide controls</string>
     <string name="horizon_menu_edit_controls">Edit controls</string>
@@ -1746,27 +1746,27 @@
     <string name="horizon_detail_bytes">%1$s MB / %2$s MB</string>
     <string name="horizon_detail_files">%1$d / %2$d files</string>
     <string name="horizon_install_interrupted">The install was interrupted. Verified files are kept; tap Retry to continue.</string>
-    <string name="hz_title">CS Engine profile</string>
-    <string name="hz_subtitle">Minecraft Java 26.3 · native engine, CS controls</string>
-    <string name="hz_name_hint">CS Engine 26.3</string>
+    <string name="hz_title">Masterix Engine profile</string>
+    <string name="hz_subtitle">Minecraft Java 26.3 · native engine, Masterix controls</string>
+    <string name="hz_name_hint">Masterix Engine 26.3</string>
     <string name="hz_version">GAME VERSION</string>
-    <string name="hz_version_value">Minecraft Java 26.3 · CS Engine · Powered by Craft Studio</string>
+    <string name="hz_version_value">Minecraft Java 26.3 · Masterix Engine · Powered by AbhayTheMaster</string>
     <string name="hz_renderer">RENDERER</string>
     <string name="hz_renderer_vulkan">Vulkan</string>
     <string name="hz_renderer_vulkan_compat">Vulkan (compatibility)</string>
     <string name="hz_renderer_opengl">OpenGL ES</string>
     <string name="hz_renderer_default">Engine default (Vulkan compatibility)</string>
-    <string name="hz_controls">CS CONTROLS</string>
+    <string name="hz_controls">MASTERIX CONTROLS</string>
     <string name="hz_controls_default">Launcher default layout</string>
     <string name="hz_scale">RESOLUTION SCALE</string>
     <string name="hz_scale_hint">Lower values render fewer pixels for more FPS; the UI stays sharp.</string>
     <string name="hz_engine">ENGINE</string>
-    <string name="hz_engine_installed">Engine installed and verified · shared by all CS Engine profiles</string>
-    <string name="hz_engine_missing">Engine not installed yet · about 500 MB download from Mojang, done once for all CS Engine profiles</string>
+    <string name="hz_engine_installed">Engine installed and verified · shared by all Masterix Engine profiles</string>
+    <string name="hz_engine_missing">Engine not installed yet · about 500 MB download from Mojang, done once for all Masterix Engine profiles</string>
     <string name="hz_engine_installing">Engine install in progress · this profile joins it</string>
     <string name="hz_summary">Own saves, options, resource packs, shaders and .hmod mods per profile</string>
     <string name="hz_create">Create profile</string>
-    <string name="hz_progress_title">Setting up CS Engine</string>
+    <string name="hz_progress_title">Setting up Masterix Engine</string>
     <string name="hz_progress_profile">Profile “%1$s” is saved. Minecraft 26.3 resources are being prepared.</string>
     <string name="hz_progress_hint">You can close this window — the setup continues in the background and PLAY shows the progress until it is ready.</string>
     <string name="hz_progress_hide">Hide</string>
@@ -1782,11 +1782,11 @@
     <string name="hz_state_failed">Failed</string>
     <string name="hz_ready_toast">%1$s is ready to play</string>
     <string name="hz_created_toast">%1$s created</string>
-    <string name="hz_play_not_ready">CS Engine is still being set up</string>
+    <string name="hz_play_not_ready">Masterix Engine is still being set up</string>
     <string name="hz_tasks_ongoing">Finish the running downloads first</string>
-    <string name="hz_account_needed">Sign in with a Microsoft account that owns Minecraft to play with CS Engine</string>
+    <string name="hz_account_needed">Sign in with a Microsoft account that owns Minecraft to play with Masterix Engine</string>
     <string name="pe_horizon_scale">Resolution scale</string>
-    <string name="pe_horizon_version_locked">CS Engine profiles always run Minecraft Java 26.3</string>
+    <string name="pe_horizon_version_locked">Masterix Engine profiles always run Minecraft Java 26.3</string>
     <string name="horizon_menu_mouse_on">Mouse: on (desktop cursor)</string>
     <string name="horizon_menu_mouse_off">Mouse: off (touch)</string>
     <string name="horizon_menu_account_skin">Account · Skin &amp; Cape</string>
@@ -1820,7 +1820,7 @@
     <string name="horizon_mouse_drag">Double-tap and hold = drag</string>
     <string name="horizon_mouse_hint">Mouse on: in menus the finger moves the cursor like a touchpad, tap = click, two fingers = scroll. Mouse off: taps land where the finger is.</string>
     <string name="horizon_menu_report">Report problem (share engine log)</string>
-    <string name="horizon_report_subject">CS Engine problem report</string>
-    <string name="horizon_friends_notice_title">CS Friends</string>
-    <string name="horizon_friends_channel">CS Friends (invites, chat)</string>
+    <string name="horizon_report_subject">Masterix Engine problem report</string>
+    <string name="horizon_friends_notice_title">Masterix Friends</string>
+    <string name="horizon_friends_channel">Masterix Friends (invites, chat)</string>
 </resources>

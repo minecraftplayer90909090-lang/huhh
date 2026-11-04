@@ -4,7 +4,7 @@
     <string name="gm_title_game">Game menu</string>
     <string name="gm_title_editor">Control editor</string>
     <string name="gm_subtitle_editor">Drag controls to move them, tap one to edit</string>
-    <string name="gm_footer">CS Launcher Plus  •  tap outside to close</string>
+    <string name="gm_footer">Masterix Plus  •  tap outside to close</string>
     <string name="gm_customkey_subtitle">The key is sent to the game once</string>
 
     <!-- Game log page -->

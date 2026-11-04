@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- CS control overlay for the Horizon engine. The engine renders into the NativeActivity window
-     below; everything here is transparent input + HUD owned by CS Launcher Plus. -->
+     below; everything here is transparent input + HUD owned by Masterix Plus. -->
 <com.craftstudio.cslauncher.input.ControlLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"

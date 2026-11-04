@@ -85,7 +85,7 @@ public class MavenName {
             builder.append('-').append(suffix);
         }
         String path =  builder.append(fileExtension).toString();
-        Log.i("CS Launcher Plus", "Path:"+path);
+        Log.i("Masterix Plus", "Path:"+path);
         return path;
     }
 

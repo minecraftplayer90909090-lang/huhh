@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Static CS Launcher Plus palette (dark): premium charcoal + silver.
+<!-- Static Masterix Plus palette (dark): premium charcoal + silver.
      Used when the color source is "default"; dynamic/hue overlays replace it at runtime. -->
 <resources>
     <!-- Dark palette in neutral charcoal so every page shares one colour -->

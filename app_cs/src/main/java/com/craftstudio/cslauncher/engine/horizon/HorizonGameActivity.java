@@ -306,7 +306,7 @@ public class HorizonGameActivity extends NativeActivity implements ControlButton
         writeInputDiagnostics("report");
         File home = HorizonEngine.home();
         StringBuilder sb = new StringBuilder();
-        sb.append("CS Engine problem report\n");
+        sb.append("Masterix Engine problem report\n");
         sb.append("time: ").append(new java.util.Date()).append('\n');
         sb.append("device: ").append(android.os.Build.MANUFACTURER).append(' ').append(android.os.Build.MODEL)
                 .append(" · Android ").append(android.os.Build.VERSION.RELEASE).append(" (API ").append(android.os.Build.VERSION.SDK_INT).append(")\n");
@@ -411,7 +411,7 @@ public class HorizonGameActivity extends NativeActivity implements ControlButton
         lp.gravity = android.view.Gravity.TOP | android.view.Gravity.START;
         lp.softInputMode = WindowManager.LayoutParams.SOFT_INPUT_ADJUST_NOTHING
                 | WindowManager.LayoutParams.SOFT_INPUT_STATE_UNCHANGED;
-        lp.setTitle("CS controls");
+        lp.setTitle("Masterix controls");
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.P) {
             lp.layoutInDisplayCutoutMode = WindowManager.LayoutParams.LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES;
         }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Rounded banner container for screens across CS Launcher Plus -->
+<!-- Rounded banner container for screens across Masterix Plus -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
     <solid android:color="?attr/colorSurfaceContainerHigh" />

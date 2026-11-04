@@ -78,7 +78,7 @@
             android:fontFamily="@font/noto_sans_bold"
             android:textColor="#F2F5FA"
             android:textSize="15sp"
-            tools:text="CS Launcher × OPTL" />
+            tools:text="Masterix × OPTL" />
 
         <TextView
             android:id="@+id/pi_subtitle"
@@ -97,7 +97,7 @@
             android:maxLines="2"
             android:textColor="#D8DBE2"
             android:textSize="11.5sp"
-            tools:text="CS Launcher is the official launcher of OPTL…" />
+            tools:text="Masterix is the official launcher of OPTL…" />
     </LinearLayout>
 
     <ImageView

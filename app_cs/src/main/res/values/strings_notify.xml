@@ -6,7 +6,7 @@
     <string name="ann_got_it">Got it</string>
     <string name="ann_open">Open</string>
     <string name="notify_channel_name">Announcements &amp; updates</string>
-    <string name="notify_channel_desc">News, events and new launcher versions from CRAFT STUDIO</string>
+    <string name="notify_channel_desc">News, events and new launcher versions from AbhayTheMaster</string>
     <string name="notify_lan_channel_name">Virtual LAN players</string>
     <string name="notify_lan_channel_desc">Tells you when a friend joins your Virtual LAN room</string>
     <string name="notify_update_action">Update now</string>

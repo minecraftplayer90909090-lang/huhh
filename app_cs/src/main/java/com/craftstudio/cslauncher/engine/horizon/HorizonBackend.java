@@ -206,7 +206,7 @@ public final class HorizonBackend implements PlatformBackend, Choreographer.Fram
 
     @Override
     public String backendName() {
-        return "CS Engine";
+        return "Masterix Engine";
     }
 
     @Override

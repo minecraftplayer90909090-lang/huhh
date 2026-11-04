@@ -2,7 +2,7 @@
 <resources>
     <!--
         Material 3 base theme. Follows the system light/dark setting (AppCompatDelegate night mode).
-        The colors below are the static CS Launcher Plus palette (CRAFT STUDIO). At runtime they are replaced by either
+        The colors below are the static Masterix Plus palette (AbhayTheMaster). At runtime they are replaced by either
         Material You wallpaper colors (Android 12+) or a ThemeOverlay.CS.HueNNN overlay picked
         from the user's custom color, see ThemeManager.
     -->

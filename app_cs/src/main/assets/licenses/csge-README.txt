@@ -1,11 +1,11 @@
-Craft Studio Graphics Engine (CSGE) 1.0.0
-Developer: Craft Studio Development Group
+AbhayTheMaster Graphics Engine (CSGE) 1.0.0
+Developer: AbhayTheMaster Development Group
 Built on MobileGlues 2.0.0 (LGPL-2.1, Copyright (c) 2025-2026 MobileGL-Dev)
 
 WHAT THIS IS
   libmobileglues.so -- a native GL-to-GLES translation library.
   This is NOT an app and will not install. It is a .so that a launcher
-  (e.g. CS Launcher Plus) loads with System.loadLibrary("mobileglues").
+  (e.g. Masterix Plus) loads with System.loadLibrary("mobileglues").
 
 INSTALL (into a launcher project)
   Copy jniLibs/<abi>/libmobileglues.so into your app module's

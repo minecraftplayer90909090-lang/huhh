@@ -26,13 +26,13 @@
     <string name="mm_empty_title_mods">No mods yet</string>
     <string name="mm_empty_title_rp">No resource packs yet</string>
     <string name="mm_empty_title_sh">No shader packs yet</string>
-    <string name="mm_empty_desc_hmods">CS Engine runs Horizon content mods (.hmod files) from the profile\'s horizon-mods folder. Import one from a file, then turn it on in the game under Options › Mods and restart the game.</string>
-    <string name="hz_mods_title">CS Engine mods</string>
-    <string name="hz_mods_message">Java mods (Fabric, Forge, NeoForge .jar files) do not run on the CS Engine. It loads Horizon content mods (.hmod) from the profile\'s horizon-mods folder.\n\nImport an .hmod file here, start the game, and switch the mod on under Options › Mods (then restart the game once). Native mods (.hnmod) are compiled into the CS Engine already: install them from the Mods browser.</string>
+    <string name="mm_empty_desc_hmods">Masterix Engine runs Horizon content mods (.hmod files) from the profile\'s horizon-mods folder. Import one from a file, then turn it on in the game under Options › Mods and restart the game.</string>
+    <string name="hz_mods_title">Masterix Engine mods</string>
+    <string name="hz_mods_message">Java mods (Fabric, Forge, NeoForge .jar files) do not run on the Masterix Engine. It loads Horizon content mods (.hmod) from the profile\'s horizon-mods folder.\n\nImport an .hmod file here, start the game, and switch the mod on under Options › Mods (then restart the game once). Native mods (.hnmod) are compiled into the Masterix Engine already: install them from the Mods browser.</string>
     <string name="hz_mods_import">Import .hmod</string>
     <string name="hz_mods_registry">Horizon registry</string>
-    <string name="hz_browser_title">CS Engine mods</string>
-    <string name="hz_browser_subtitle">Horizon registry  ·  works with CS Engine</string>
+    <string name="hz_browser_title">Masterix Engine mods</string>
+    <string name="hz_browser_subtitle">Horizon registry  ·  works with Masterix Engine</string>
     <string name="hz_browser_back">Back</string>
     <string name="hz_browser_tab_mods">Mods</string>
     <string name="hz_browser_tab_packs">Resource packs</string>
@@ -53,7 +53,7 @@
     <string name="hz_browser_enabled_toast">%1$s turned on. Restart the game if it is running.</string>
     <string name="hz_browser_disabled_toast">%1$s turned off.</string>
     <string name="hz_browser_pack_toast">%1$s added and selected under Options › Resource Packs.</string>
-    <string name="hz_browser_unavailable_why">%1$s is a native mod that this CS Engine build could not compile in. It will come back once its author updates it for the current engine.</string>
+    <string name="hz_browser_unavailable_why">%1$s is a native mod that this Masterix Engine build could not compile in. It will come back once its author updates it for the current engine.</string>
     <string name="hz_browser_download_failed">Download failed: %1$s</string>
     <string name="hz_browser_remove_q">Remove %1$s from this profile?</string>
     <string name="hz_browser_remove">Remove</string>
@@ -115,5 +115,5 @@
     <string name="ce_hint">Tap the ⚙ tab at the top to add buttons. Tap any control to edit, resize or remap it.</string>
     <string name="ce_added">Added. Drag it where you want.</string>
     <string name="ce_edit_controls">Edit control</string>
-    <string name="mm_import_hnmod">.hnmod files are native CS Engine mods and are already compiled into the engine: install them from the Mods browser (Download button) instead of importing the file.</string>
+    <string name="mm_import_hnmod">.hnmod files are native Masterix Engine mods and are already compiled into the engine: install them from the Mods browser (Download button) instead of importing the file.</string>
 </resources>

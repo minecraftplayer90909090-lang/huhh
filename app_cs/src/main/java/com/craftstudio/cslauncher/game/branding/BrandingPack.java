@@ -5,7 +5,7 @@ public final class BrandingPack {
     private BrandingPack() {}
 
     /** Folder name inside {@code <gameDir>/resourcepacks}. No spaces: keeps options.txt and shells simple. */
-    public static final String DIR_NAME = "CS Launcher Plus";
+    public static final String DIR_NAME = "Masterix Plus";
     /** Folder/entry name used by generator revisions <= 3; cleaned up (folder + options entries) on the next apply. */
     public static final String LEGACY_DIR_NAME = "CS-Dynamic-Branding";
     public static final String LEGACY_PACK_ENTRY = "file/" + LEGACY_DIR_NAME;

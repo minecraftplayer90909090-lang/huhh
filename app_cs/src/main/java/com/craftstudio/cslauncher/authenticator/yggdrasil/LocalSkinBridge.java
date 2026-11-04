@@ -41,22 +41,22 @@ public final class LocalSkinBridge {
         sServer = null;
         if (account.authType != AuthType.LOCAL) return;
         if (!LauncherPreferences.PREF_LOCAL_SKINS) {
-            gameLog("[CS Skins] Launcher skins for local accounts are turned off in Settings, using the default skin");
+            gameLog("[Masterix Skins] Launcher skins for local accounts are turned off in Settings, using the default skin");
             return;
         }
         try {
             SkinLibrary.Entry skin = LocalSkinStore.selectedSkin(account);
             LocalSkinStore.Cape cape = LocalSkinStore.selectedCape(account);
             if (skin == null && cape == null) {
-                gameLog("[CS Skins] No skin or cape picked for " + account.username
+                gameLog("[Masterix Skins] No skin or cape picked for " + account.username
                         + ", using the default skin (pick one in the launcher: account, edit skin)");
                 return; // nothing custom: launch exactly like before
             }
 
             byte[] skinPng = skin == null ? null : cleanSkin(SkinLibrary.readBytes(skin));
             byte[] capePng = cape == null ? null : cleanCape(LocalSkinStore.readBytes(LocalSkinStore.capeFile(cape)));
-            if (skin != null && skinPng == null) gameLog("[CS Skins] ERROR the skin \"" + skin.name + "\" is not a valid 64x64 or 64x32 PNG, skipped");
-            if (cape != null && capePng == null) gameLog("[CS Skins] ERROR the cape \"" + cape.name + "\" is not a valid cape PNG, skipped");
+            if (skin != null && skinPng == null) gameLog("[Masterix Skins] ERROR the skin \"" + skin.name + "\" is not a valid 64x64 or 64x32 PNG, skipped");
+            if (cape != null && capePng == null) gameLog("[Masterix Skins] ERROR the cape \"" + cape.name + "\" is not a valid cape PNG, skipped");
             if (skinPng == null && capePng == null) return;
 
             if (account.profileId == null || NIL_UUID.equals(account.profileId)) {
@@ -66,13 +66,13 @@ public final class LocalSkinBridge {
             LocalYggdrasilServer.setEventLog(LocalSkinBridge::gameLog);
             sServer = LocalYggdrasilServer.start(new File(Tools.DIR_DATA, "yggdrasil"), account.username,
                     account.profileId, skinPng, skinPng != null && skin.slim, capePng);
-            gameLog("[CS Skins] Skin server ready on port " + sServer.getPort() + " for " + account.username
+            gameLog("[Masterix Skins] Skin server ready on port " + sServer.getPort() + " for " + account.username
                     + " (" + account.profileId + ")"
                     + " | skin: " + (skinPng == null ? "default" : "\"" + skin.name + "\" " + (skin.slim ? "slim" : "classic"))
                     + " | cape: " + (capePng == null ? "none" : "\"" + cape.name + "\""));
         } catch (Throwable t) {
             Log.w(TAG, "Local skin server not started, the default skin will be used", t);
-            gameLog("[CS Skins] ERROR skin server failed to start, using the default skin: " + t);
+            gameLog("[Masterix Skins] ERROR skin server failed to start, using the default skin: " + t);
             sServer = null;
         }
     }
@@ -84,7 +84,7 @@ public final class LocalSkinBridge {
         File injector = new File(Tools.DIR_DATA, "authlib-injector/authlib-injector.jar");
         if (!injector.isFile()) {
             Log.w(TAG, "authlib-injector.jar is missing, skipping the local skin");
-            gameLog("[CS Skins] ERROR authlib-injector.jar is missing, the skin can't be shown (reinstall the launcher)");
+            gameLog("[Masterix Skins] ERROR authlib-injector.jar is missing, the skin can't be shown (reinstall the launcher)");
             server.stop();
             sServer = null;
             return false;
@@ -94,7 +94,7 @@ public final class LocalSkinBridge {
         // Keep the plain window title (no "- CS Launcher Plus" suffix)
         javaArgs.add("-Dauthlibinjector.noShowServerName");
         String version = AuthlibInjectorUpdater.installedVersionName();
-        gameLog("[CS Skins] authlib-injector " + (version == null ? "" : version + " ") + "enabled successfully");
+        gameLog("[Masterix Skins] authlib-injector " + (version == null ? "" : version + " ") + "enabled successfully");
         return true;
     }
 

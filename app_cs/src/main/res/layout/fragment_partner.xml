@@ -170,7 +170,7 @@
                             android:fontFamily="@font/noto_sans_bold"
                             android:textColor="#F2F5FA"
                             android:textSize="16sp"
-                            tools:text="CS Launcher × OPTL" />
+                            tools:text="Masterix × OPTL" />
 
                         <TextView
                             android:id="@+id/pn_full_name"
@@ -191,7 +191,7 @@
                     android:lineSpacingExtra="2dp"
                     android:textColor="#D8DBE2"
                     android:textSize="12.5sp"
-                    tools:text="CS Launcher is the official launcher of OPTL…" />
+                    tools:text="Masterix is the official launcher of OPTL…" />
             </LinearLayout>
 
             <!-- Benefits -->
@@ -286,7 +286,7 @@
                             android:lineSpacingExtra="1dp"
                             android:textColor="?attr/colorOnSurfaceVariant"
                             android:textSize="11.5sp"
-                            tools:text="CS Launcher users get a reduced 5-day cooldown instead of the standard 7 days." />
+                            tools:text="Masterix users get a reduced 5-day cooldown instead of the standard 7 days." />
 
                         <TextView
                             android:id="@+id/pn_highlight_old"

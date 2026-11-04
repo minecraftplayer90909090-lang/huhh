@@ -2,7 +2,7 @@
 <!--
     Horizon Engine profile popup (Create New Instance → Horizon Engine).
     Same card/field language as dialog_create_instance.xml. Left: name, game version (fixed 26.3),
-    renderer, CS controls.  Right: resolution scale, engine status.  The progress panel replaces the
+    renderer, Masterix controls.  Right: resolution scale, engine status.  The progress panel replaces the
     body while the shared engine resources are downloaded / verified / prepared.
 -->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"

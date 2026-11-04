@@ -276,7 +276,7 @@ public final class GameExitPostmortem {
     @NonNull
     private static File writeReport(@NonNull Context ctx, @NonNull Record r) throws Exception {
         StringBuilder sb = new StringBuilder();
-        sb.append("CS Launcher Plus - game process post-mortem\n");
+        sb.append("Masterix Plus - game process post-mortem\n");
         sb.append("Written: ").append(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss z", Locale.US).format(new Date())).append('\n');
         sb.append("Launcher: ").append(BuildConfig.VERSION_NAME).append(" (").append(BuildConfig.VERSION_CODE).append(", ").append(BuildConfig.BUILD_TYPE).append(")\n");
         sb.append("Device: ").append(Build.MANUFACTURER).append(' ').append(Build.MODEL).append(", Android ").append(Build.VERSION.RELEASE)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- About CS Launcher Plus: hero, community links, the launchers it is built on, open source credits, legal -->
+<!-- About Masterix Plus: hero, community links, the launchers it is built on, open source credits, legal -->
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/about_scroll"
     android:layout_width="match_parent"

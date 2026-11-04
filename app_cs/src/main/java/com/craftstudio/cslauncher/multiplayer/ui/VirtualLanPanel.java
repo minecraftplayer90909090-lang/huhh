@@ -1105,7 +1105,7 @@ public final class VirtualLanPanel implements VirtualLanClient.Listener {
     }
 
     private String diagnostics(VirtualLanState s) {
-        StringBuilder b = new StringBuilder("CS Launcher Plus - Virtual LAN diagnostics\n");
+        StringBuilder b = new StringBuilder("Masterix Plus - Virtual LAN diagnostics\n");
         b.append("role=").append(s.role).append(" phase=").append(s.phase).append(" reason=").append(s.reason).append('\n');
         b.append("code=").append(s.sessionCode).append('\n');
         b.append("vip=").append(s.localVip).append(" hostVip=").append(s.hostVip).append('\n');

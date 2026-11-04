@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- CS Launcher Plus home screen palette (fixed dark charcoal scheme) -->
+<!-- Masterix Plus home screen palette (fixed dark charcoal scheme) -->
 <resources>
     <color name="home_bg">#0B0B0E</color>
     <color name="home_bg_secondary">#141419</color>

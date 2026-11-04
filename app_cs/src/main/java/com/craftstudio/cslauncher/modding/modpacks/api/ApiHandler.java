@@ -52,7 +52,7 @@ public class ApiHandler {
     }
 
     //Make a get request and return the response as a raw string;
-    private static final String USER_AGENT = "CSLauncherPlus/1.4 (by Craft Studio)";
+    private static final String USER_AGENT = "MasterixPlus/2.7 (by AbhayTheMaster)";
     private static final int CONNECT_TIMEOUT_MS = 10_000;
     private static final int READ_TIMEOUT_MS = 15_000;
 

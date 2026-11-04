@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- CS Launcher Plus home screen widget styles -->
+<!-- Masterix Plus home screen widget styles -->
 <resources>
     <!-- Sidebar navigation buttons: icon-only, centered icon, compact 44dp rows -->
     <style name="Home.NavItem" parent="">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    CS animation system (CRAFT STUDIO).
+    CS animation system (AbhayTheMaster).
     Every animation only touches alpha / translation / scale (GPU-composited properties),
     with short durations tuned to feel instant on mobile - no lag, no layout passes.
 -->

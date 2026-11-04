@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    CS Launcher Plus main menu: full width content pane (navigation is the top bar dock),
+    Masterix Plus main menu: full width content pane (navigation is the top bar dock),
     plus the Manage Content picker column while it is open.
     The home content of the pane (banner, version, PLAY, cards, quick settings)
     lives in fragment_right_pane_home.

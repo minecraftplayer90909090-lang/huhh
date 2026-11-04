@@ -227,7 +227,7 @@ public final class LocalYggdrasilServer {
     @NonNull
     private JsonObject metadata() {
         JsonObject meta = new JsonObject();
-        meta.addProperty("serverName", "CS Launcher Plus");
+        meta.addProperty("serverName", "Masterix Plus");
         meta.addProperty("implementationName", "CSLauncher-LocalYggdrasil");
         meta.addProperty("implementationVersion", "1.0");
         meta.addProperty("feature.non_email_login", true);
@@ -398,8 +398,8 @@ public final class LocalYggdrasilServer {
             String hash = path.substring("/textures/".length());
             byte[] png = mTextures.get(hash);
             if (png == null) return Response.error(404, "NotFound", "No such texture");
-            if (hash.equals(mSkinHash)) logOnce("skin", "[CS Skins] Game downloaded the skin texture successfully");
-            if (hash.equals(mCapeHash)) logOnce("cape", "[CS Skins] Game downloaded the cape texture successfully");
+            if (hash.equals(mSkinHash)) logOnce("skin", "[Masterix Skins] Game downloaded the skin texture successfully");
+            if (hash.equals(mCapeHash)) logOnce("cape", "[Masterix Skins] Game downloaded the cape texture successfully");
             Response response = new Response();
             response.type = "image/png";
             response.body = png;
@@ -420,7 +420,7 @@ public final class LocalYggdrasilServer {
         if (post && path.equals("/sessionserver/session/minecraft/join")) return Response.noContent();
         if (get && path.equals("/sessionserver/session/minecraft/hasJoined")) {
             if (!isOurName(r.query.get("username"))) return Response.noContent();
-            logOnce("hasJoined", "[CS Skins] Server checked the player, sent the signed skin profile");
+            logOnce("hasJoined", "[Masterix Skins] Server checked the player, sent the signed skin profile");
             return Response.json(profile(true, true));
         }
         if (get && path.startsWith("/sessionserver/session/minecraft/profile/")) {
@@ -431,10 +431,10 @@ public final class LocalYggdrasilServer {
             // ignore unsigned textures.
             boolean ours = uuid.equals(mUuid) || uuid.equals(mOfflineUuid) || uuid.matches("0{32}");
             if (!ours) {
-                logOnce("profile-other", "[CS Skins] Game asked for another player's profile (" + uuid + "), not ours");
+                logOnce("profile-other", "[Masterix Skins] Game asked for another player's profile (" + uuid + "), not ours");
                 return Response.noContent();
             }
-            logOnce("profile", "[CS Skins] Game asked for the player profile, sent skin"
+            logOnce("profile", "[Masterix Skins] Game asked for the player profile, sent skin"
                     + (mSkinHash != null ? "" : " (default)") + (mCapeHash != null ? " + cape" : ""));
             return Response.json(profile(uuid.equals(mOfflineUuid) || uuid.equals(mUuid) ? uuid : mUuid, true, true));
         }
@@ -480,7 +480,7 @@ public final class LocalYggdrasilServer {
             return Response.json(root);
         }
 
-        logOnce("404 " + path, "[CS Skins] WARN unhandled request " + r.method + " " + path);
+        logOnce("404 " + path, "[Masterix Skins] WARN unhandled request " + r.method + " " + path);
         return Response.error(404, "NotFound", "Not supported by the local skin server");
     }
 

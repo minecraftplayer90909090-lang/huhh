@@ -32,7 +32,7 @@
     <string name="tut_welcome_f2_t">Mods &amp; resources</string>
     <string name="tut_welcome_f2_b">Browse Modrinth and CurseForge inside the launcher</string>
     <string name="tut_welcome_f3_t">Minecraft look</string>
-    <string name="tut_welcome_f3_b">Vanilla menus or the CS Custom experience</string>
+    <string name="tut_welcome_f3_b">Vanilla menus or the Masterix Custom experience</string>
     <string name="tut_welcome_f4_t">One-tap PLAY</string>
     <string name="tut_welcome_f4_b">Downloads what\'s missing and starts the game</string>
     <string name="tut_welcome_start">Take the tour</string>
@@ -87,7 +87,7 @@
     <string name="tut_home_version_t">Minecraft version</string>
     <string name="tut_home_version_b">Choose the game version for this profile — releases, snapshots and older versions. The launcher downloads it when you press PLAY.</string>
     <string name="tut_home_edit_t">Edit the profile</string>
-    <string name="tut_home_edit_b">The pencil opens the profile editor: name and icon, version and mod loader, RAM, renderer, control layout — and the Minecraft Appearance (Vanilla or CS Custom).</string>
+    <string name="tut_home_edit_b">The pencil opens the profile editor: name and icon, version and mod loader, RAM, renderer, control layout — and the Minecraft Appearance (Vanilla or Masterix Custom).</string>
     <string name="tut_home_play_t">PLAY</string>
     <string name="tut_home_play_b">One tap. Missing files are downloaded first (you\'ll see “Downloading”), then the game launches. No separate install step.</string>
     <string name="tut_home_browse_t">Browse content</string>
@@ -121,19 +121,19 @@
     <string name="tut_prof_save_b">Save applies your changes; Back discards them. The home screen shows the updated profile right away.</string>
 
     <!-- ───── Guide: Minecraft look ───── -->
-    <string name="tut_look_title">Minecraft look: Vanilla vs CS Custom</string>
-    <string name="tut_look_summary">Original menus or the Craft Studio style</string>
+    <string name="tut_look_title">Minecraft look: Vanilla vs Masterix Custom</string>
+    <string name="tut_look_summary">Original menus or the AbhayTheMaster style</string>
     <string name="tut_look_desc">What “Minecraft Appearance” in the profile editor does, what each option changes, and the version it needs.</string>
     <string name="tut_look_intro_t">Two looks for the game itself</string>
     <string name="tut_look_intro_b">Besides the launcher theme, each profile can change how Minecraft\'s own menus look. It\'s set per profile in the editor — opening it now.</string>
     <string name="tut_look_row_t">Minecraft Appearance</string>
-    <string name="tut_look_row_b">This row shows the current look of the profile and opens the chooser. Two options: Vanilla Experience and CS Custom Experience.</string>
+    <string name="tut_look_row_b">This row shows the current look of the profile and opens the chooser. Two options: Vanilla Experience and Masterix Custom Experience.</string>
     <string name="tut_look_vanilla_t">Vanilla Experience</string>
     <string name="tut_look_vanilla_b">The original Minecraft main menu and loading screen, exactly as Mojang ships them. Nothing is added to the game.</string>
-    <string name="tut_look_custom_t">CS Custom Experience</string>
-    <string name="tut_look_custom_b">A dark obsidian menu with platinum accents: Craft Studio title, night panorama, restyled buttons, custom splashes and a dark loading screen. You can pick which parts to apply.</string>
+    <string name="tut_look_custom_t">Masterix Custom Experience</string>
+    <string name="tut_look_custom_b">A dark obsidian menu with platinum accents: AbhayTheMaster title, night panorama, restyled buttons, custom splashes and a dark loading screen. You can pick which parts to apply.</string>
     <string name="tut_look_how_t">How it works</string>
-    <string name="tut_look_how_b">CS Custom is a resource pack the launcher builds for the profile\'s version at launch and enables automatically. It needs Minecraft 1.21 or newer; on older versions the profile stays Vanilla. Game files are never modified.</string>
+    <string name="tut_look_how_b">Masterix Custom is a resource pack the launcher builds for the profile\'s version at launch and enables automatically. It needs Minecraft 1.21 or newer; on older versions the profile stays Vanilla. Game files are never modified.</string>
     <string name="tut_look_done_t">Change it any time</string>
     <string name="tut_look_done_b">Switch between the two looks whenever you like — it takes effect on the next PLAY of this profile.</string>
 

@@ -31,7 +31,7 @@ import java.util.regex.Pattern;
  * derives from the monotonically increasing run number.
  */
 public final class UpdateChecker {
-    public static final String REPO = "JoooaoooDVD/CSL2";
+    public static final String REPO = "minecraftplayer90909090-lang/huhh";
     private static final String API = "https://api.github.com/repos/" + REPO + "/releases?per_page=12";
     private static final Pattern UPDATE_LINE = Pattern.compile("cs-update:\\s*versionCode=(\\d+)\\s+versionName=(\\S+)");
     private static final Pattern APK_LINE = Pattern.compile("cs-apk:\\s*file=(.+?)\\s+sha256=([0-9a-fA-F]{64})\\s+size=(\\d+)");
