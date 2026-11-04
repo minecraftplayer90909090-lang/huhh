@@ -1,8 +1,4 @@
-<<<<<<< HEAD:.github/workflows/build.yml
 name: Build Masterix Plus
-=======
-name: Build Masterix
->>>>>>> 9c0916d803260e82944e472bd7e94a20e96ede6d:.github/workflows/android.yml
 
 on:
   workflow_dispatch:
@@ -16,20 +12,18 @@ permissions:
   contents: write
 
 env:
-<<<<<<< HEAD:.github/workflows/build.yml
   APP_NAME: Masterix Plus
-=======
-  APP_NAME: Masterix
->>>>>>> 9c0916d803260e82944e472bd7e94a20e96ede6d:.github/workflows/android.yml
 
 jobs:
   build:
     runs-on: ubuntu-22.04
     timeout-minutes: 90
+
     env:
       UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.UPLOAD_NEXT_KEYSTORE_PASSWORD }}
       CSPUB_KEYSTORE_PASSWORD: ${{ secrets.RELEASE_NEXT_KEYSTORE_PASSWORD }}
       CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -71,7 +65,7 @@ jobs:
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
+          distribution: temurin
           java-version: '17'
 
       - name: Create out directory
