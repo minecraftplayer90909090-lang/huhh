@@ -1,4 +1,8 @@
+<<<<<<< HEAD:.github/workflows/build.yml
 name: Build Masterix Plus
+=======
+name: Build Masterix
+>>>>>>> 9c0916d803260e82944e472bd7e94a20e96ede6d:.github/workflows/android.yml
 
 on:
   workflow_dispatch:
@@ -12,7 +16,11 @@ permissions:
   contents: write
 
 env:
+<<<<<<< HEAD:.github/workflows/build.yml
   APP_NAME: Masterix Plus
+=======
+  APP_NAME: Masterix
+>>>>>>> 9c0916d803260e82944e472bd7e94a20e96ede6d:.github/workflows/android.yml
 
 jobs:
   build:
