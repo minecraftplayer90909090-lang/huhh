@@ -123,3 +123,6 @@ find app_cs/src/main/java app_cs/src/main/res -type f \( -name '*.java' -o -name
   -e "s#https://youtube.com/@craft-studio-official#$YT#g" \
   -e "s#https://discord.gg/dmteYqZZyY#$DC#g" \
   -e "s#https://discord.gg/j8GTQv3YvY#$DC#g"
+
+# Apna build workflow wapas (dev ka build.yml overwrite na kare)
+[ -f scripts/masterix-build.yml ] && cp scripts/masterix-build.yml .github/workflows/build.yml
