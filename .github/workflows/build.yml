@@ -71,7 +71,6 @@ jobs:
       - name: Create out directory
         run: mkdir out
 
-<<<<<<< HEAD:.github/workflows/build.yml
       - name: Fetch Virtual LAN tunnel engine (EasyTier)
         run: bash scripts/fetch_easytier.sh
 
@@ -79,9 +78,6 @@ jobs:
         run: bash scripts/build_hev_tunnel.sh
 
       - name: Fetch Horizon engine
-=======
-      - name: Fetch Horizon engine (JoooaoooDVD/horizon-android, cs-engine-latest)
->>>>>>> upstream/main:.github/workflows/android.yml
         run: bash scripts/fetch_horizon_engine.sh
 
       - name: Build Debug .apk
