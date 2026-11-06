@@ -88,7 +88,7 @@ public final class LocalYggdrasilServer {
     private final String mUuid;         // unhyphenated
     private final String mOfflineUuid;  // unhyphenated offline-mode UUID of mName (may equal mUuid)
     private final boolean mSlim;
-    private final Map<String, byte[]> mTextures = new HashMap<>(); // hash -> png
+    private final Map<String, byte[]> mTextures = new java.util.concurrent.ConcurrentHashMap<>(); // hash -> png
     @Nullable private final String mSkinHash;
     @Nullable private final String mCapeHash;
     private final String mAccessToken = UUID.randomUUID().toString().replace("-", "");
@@ -248,32 +248,44 @@ public final class LocalYggdrasilServer {
 
     @NonNull
     private JsonObject profile(@NonNull String id, boolean withTextures, boolean signed) {
+        if (!withTextures) {
+            JsonObject profile = new JsonObject();
+            profile.addProperty("id", id);
+            profile.addProperty("name", mName);
+            return profile;
+        }
+        return profile(id, mName, mSkinHash, mSlim, mCapeHash, signed);
+    }
+
+    /** A textured profile for any player whose textures are in {@link #mTextures}. */
+    @NonNull
+    private JsonObject profile(@NonNull String id, @NonNull String name, @Nullable String skinHash, boolean slim,
+                               @Nullable String capeHash, boolean signed) {
         JsonObject profile = new JsonObject();
         profile.addProperty("id", id);
-        profile.addProperty("name", mName);
-        if (!withTextures) return profile;
+        profile.addProperty("name", name);
 
         JsonObject textures = new JsonObject();
         String base = "http://127.0.0.1:" + getPort() + "/textures/";
-        if (mSkinHash != null) {
+        if (skinHash != null) {
             JsonObject skin = new JsonObject();
-            skin.addProperty("url", base + mSkinHash);
-            if (mSlim) {
+            skin.addProperty("url", base + skinHash);
+            if (slim) {
                 JsonObject metadata = new JsonObject();
                 metadata.addProperty("model", "slim");
                 skin.add("metadata", metadata);
             }
             textures.add("SKIN", skin);
         }
-        if (mCapeHash != null) {
+        if (capeHash != null) {
             JsonObject cape = new JsonObject();
-            cape.addProperty("url", base + mCapeHash);
+            cape.addProperty("url", base + capeHash);
             textures.add("CAPE", cape);
         }
         JsonObject payload = new JsonObject();
         payload.addProperty("timestamp", System.currentTimeMillis());
         payload.addProperty("profileId", id);
-        payload.addProperty("profileName", mName);
+        payload.addProperty("profileName", name);
         payload.add("textures", textures);
         String value = Base64.encodeToString(payload.toString().getBytes(StandardCharsets.UTF_8), Base64.NO_WRAP);
 
@@ -431,7 +443,23 @@ public final class LocalYggdrasilServer {
             // ignore unsigned textures.
             boolean ours = uuid.equals(mUuid) || uuid.equals(mOfflineUuid) || uuid.matches("0{32}");
             if (!ours) {
+<<<<<<< HEAD
                 logOnce("profile-other", "[Masterix Skins] Game asked for another player's profile (" + uuid + "), not ours");
+=======
+                // Another player: CS Launcher players share their skin through the CS friends
+                // backend (offline-mode UUIDs derive from the name, so the backend can map them)
+                com.craftstudio.cslauncher.friends.RemoteSkins.Skin remote = uuid.matches("[0-9a-f]{32}")
+                        ? com.craftstudio.cslauncher.friends.RemoteSkins.lookupByUuid(uuid) : null;
+                if (remote != null) {
+                    try {
+                        String skinHash = remote.skinPng == null ? null : putTexture(remote.skinPng);
+                        String capeHash = remote.capePng == null ? null : putTexture(remote.capePng);
+                        logOnce("profile-cs-" + uuid, "[Masterix Skins] Sent the Masterix skin of " + remote.name);
+                        return Response.json(profile(uuid, remote.name, skinHash, remote.slim, capeHash, true));
+                    } catch (GeneralSecurityException ignored) {}
+                }
+                logOnce("profile-other", "[Masterix Skins] Game asked for another player's profile (" + uuid + "), not ours");
+>>>>>>> upstream/main
                 return Response.noContent();
             }
             logOnce("profile", "[Masterix Skins] Game asked for the player profile, sent skin"

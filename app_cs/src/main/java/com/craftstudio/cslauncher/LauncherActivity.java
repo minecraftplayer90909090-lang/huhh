@@ -66,6 +66,7 @@ public class LauncherActivity extends BaseActivity {
 
     private FragmentContainerView mFragmentView;
     private ImageButton mSettingsButton;
+    @Nullable private com.craftstudio.cslauncher.friends.ui.FriendsBell mFriendsBell;
     private ProgressLayout mProgressLayout;
     private ProgressServiceKeeper mProgressServiceKeeper;
     private NotificationManager mNotificationManager;
@@ -331,6 +332,8 @@ public class LauncherActivity extends BaseActivity {
         final String shortcutProfile = com.craftstudio.cslauncher.utils.ProfileShortcuts.profileFrom(getIntent());
         if (savedInstanceState == null && shortcutProfile == null) {
             ViewGroup content = findViewById(android.R.id.content);
+            // The chime plays on every device whatever the animation switches say
+            com.craftstudio.cslauncher.utils.StartupSound.playOnce(this);
             if (content != null) content.post(() -> AnimationManager.playBrandIntro(content));
         }
         // First launch: privacy policy & terms, then the storage setup (where game files live)
@@ -552,6 +555,7 @@ public class LauncherActivity extends BaseActivity {
     protected void onStop() {
         super.onStop();
         com.craftstudio.cslauncher.tutorial.TutorialManager.getInstance().detach(this);
+        if (mFriendsBell != null) mFriendsBell.detach();
         // Not visible any more (game taking over, or another app): hand the Discord presence back
         com.craftstudio.cslauncher.discord.DiscordPresenceManager.getInstance(this).releaseFromLauncher();
     }
@@ -562,6 +566,7 @@ public class LauncherActivity extends BaseActivity {
         getSupportFragmentManager().registerFragmentLifecycleCallbacks(mFragmentCallbackListener, true);
         AnimationManager.installFragmentTransitions(this);
         com.craftstudio.cslauncher.tutorial.TutorialManager.getInstance().attach(this);
+        if (mFriendsBell != null) mFriendsBell.attach();
     }
 
     @Override
@@ -681,6 +686,8 @@ public class LauncherActivity extends BaseActivity {
         mFragmentView = findViewById(R.id.container_fragment);
         mSettingsButton = findViewById(R.id.setting_button);
         mProgressLayout = findViewById(R.id.progress_layout);
+        View bell = findViewById(R.id.friends_bell);
+        if (bell != null) mFriendsBell = new com.craftstudio.cslauncher.friends.ui.FriendsBell(this, bell, findViewById(R.id.friends_bell_badge));
         TopNavDock.bind(this, this::onDockItemClicked);
     }
 
