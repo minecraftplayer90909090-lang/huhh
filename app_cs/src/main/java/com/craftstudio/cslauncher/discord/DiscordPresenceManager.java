@@ -46,8 +46,8 @@ public final class DiscordPresenceManager {
 
     public static final String ASSETS_BASE_URL = "https://raw.githubusercontent.com/minecraftplayer90909090-lang/cslauncher-assets/main/";
     public static final String LAUNCHER_ICON_URL = ASSETS_BASE_URL + "cs_launcher_logo.png";
-    public static final String DISCORD_INVITE_URL = "https://discord.gg/dmteYqZZyY";
-    public static final String YOUTUBE_URL = "https://youtube.com/@craft-studio-official";
+    public static final String DISCORD_INVITE_URL = "https://discord.gg/f9UNVkF4t";
+    public static final String YOUTUBE_URL = "https://youtube.com/@abhaythemaster";
     public static final String BUTTON_DISCORD = "Join our Discord";
     public static final String BUTTON_YOUTUBE = "YouTube channel";
 

@@ -115,3 +115,11 @@ if [ -f "$DISC" ]; then
   sed -i -E "s#(ASSETS_BASE_URL = \")[^\"]*(\";)#\1https://raw.githubusercontent.com/minecraftplayer90909090-lang/cslauncher-assets/main/\2#" "$DISC"
   sed -i -E "s#(LAUNCHER_ICON_URL = )[^;]*;#\1ASSETS_BASE_URL + \"cs_launcher_logo.png\";#" "$DISC"
 fi
+
+# Discord + YouTube links -> apne links
+YT="https://youtube.com/@abhaythemaster"
+DC="https://discord.gg/f9UNVkF4t"
+find app_cs/src/main/java app_cs/src/main/res -type f \( -name '*.java' -o -name '*.xml' \) -print0 | xargs -0 sed -i \
+  -e "s#https://youtube.com/@craft-studio-official#$YT#g" \
+  -e "s#https://discord.gg/dmteYqZZyY#$DC#g" \
+  -e "s#https://discord.gg/j8GTQv3YvY#$DC#g"

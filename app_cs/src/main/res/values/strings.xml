@@ -584,7 +584,7 @@
     <string name="mcl_button_social_media">Discord</string>
     <string name="ltw_render_distance_warning_msg">Your GPU is not capable of rendering above 7 render distance without Sodium or other similar mods. The render distance will be automatically reduced when you click "OK".</string>
     <string name="mcl_button_open_directory">Open game directory</string>
-    <string name="social_media_invite" translatable="false">https://discord.gg/j8GTQv3YvY</string>
+    <string name="social_media_invite" translatable="false">https://discord.gg/f9UNVkF4t</string>
     <string name="local_login_bad_username_title">Unsuitable username</string>
     <string name="local_login_bad_username_text">The username must be between 3–16 characters long, and must only contain latin letters, numbers 0–9 and underscores.</string>
     <string name="quick_setting_title">Quick settings</string>
@@ -1241,7 +1241,7 @@
     <string name="di_hero_caption">Players and the Masterix team, one server</string>
     <string name="di_join">Join Discord</string>
     <string name="di_youtube">Also on YouTube</string>
-    <string name="di_youtube_url" translatable="false">https://youtube.com/@craft-studio-official</string>
+    <string name="di_youtube_url" translatable="false">https://youtube.com/@abhaythemaster</string>
     <string name="yt_eyebrow">YOUTUBE</string>
     <string name="yt_title">Watch Masterix on YouTube</string>
     <string name="yt_body">Guides, modpack showcases and every new feature explained — straight from the team.</string>
@@ -1254,7 +1254,7 @@
     <string name="yt_subscribe">Open YouTube</string>
     <string name="yt_also_discord">Also on Discord</string>
     <string name="di_later">Maybe later</string>
-    <string name="di_invite_url" translatable="false">https://discord.gg/dmteYqZZyY</string>
+    <string name="di_invite_url" translatable="false">https://discord.gg/f9UNVkF4t</string>
     <!-- Version picker popup -->
     <string name="vp_filter_compatible">Compatible</string>
     <string name="vp_filter_release">Releases</string>
