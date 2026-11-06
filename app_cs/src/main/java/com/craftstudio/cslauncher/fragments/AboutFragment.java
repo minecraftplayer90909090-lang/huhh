@@ -27,9 +27,9 @@ import com.craftstudio.cslauncher.utils.motion.Motion;
 public class AboutFragment extends Fragment {
     public static final String TAG = "AboutFragment";
 
-    public static final String URL_DISCORD = "https://discord.gg/dmteYqZZyY";
-    public static final String URL_GITHUB = "https://github.com/craftstudioteam";
-    public static final String URL_YOUTUBE = "https://youtube.com/@craft-studio-official";
+    public static final String URL_DISCORD = "https://discord.gg/r3dxcuWsc";
+    public static final String URL_GITHUB = "https://github.com/abhaythemaster";
+    public static final String URL_YOUTUBE = "https://youtube.com/@abhaythemaster";
 
     /** One of the launchers this project stands on */
     private static final class Project {
@@ -66,7 +66,7 @@ public class AboutFragment extends Fragment {
     };
 
     private static final Credit[] LIBRARIES = {
-            new Credit("Horizon Android", "Masterix Engine (Powered by Craft Studio) is built on Horizon Android, a native Rust engine for Minecraft: Java Edition.", "MIT", "https://github.com/Vasysik/horizon-android"),
+            new Credit("Horizon Android", "Masterix Engine (Powered by AbhayTheMaster) is built on Horizon Android, a native Rust engine for Minecraft: Java Edition.", "MIT", "https://github.com/Vasysik/horizon-android"),
             new Credit("Boardwalk", "The project that first ran Minecraft: Java Edition on Android — the ancestor of every Pojav-based launcher.", "Apache-2.0", "https://github.com/zhuowei/Boardwalk"),
             new Credit("OpenJDK (multiarch)", "Java runtimes 8, 17 and 21 built for Android by the PojavLauncher team.", "GPL-2.0 + CE", "https://github.com/PojavLauncherTeam/android-openjdk-build-multiarch"),
             new Credit("GLFW (Android)", "Window, input and EGL context backend for LWJGL 3.", "zlib", "https://github.com/MojoLauncher/glfw"),
