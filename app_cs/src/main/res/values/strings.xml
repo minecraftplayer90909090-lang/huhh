@@ -130,7 +130,7 @@
     <string name="mcl_setting_renderer_mesa_desktop">Mesa (DRM) - all versions</string>
     <string name="mcl_setting_renderer_mesa_desktop_ext">Mesa (DRM, external) - all versions</string>
     <string name="mcl_setting_renderer_mobileglues">MobileGlues (OpenGL ES) - 1.17+ only</string>
-    <string name="mcl_setting_renderer_csge">CSGE - AbhayTheMaster Graphics Engine (Beta) - 1.17+ only</string>
+    <string name="mcl_setting_renderer_csge">MXGE - Masterix Graphics Engine (Beta) - 1.17+ only</string>
     <string name="mcl_setting_renderer_sfpew">SFPEW/MobileGlues (OpenGL ES) - (all versions)</string>
     <string name="mcl_setting_veroption_release">Release</string>
     <string name="mcl_setting_veroption_snapshot">Snapshot</string>
