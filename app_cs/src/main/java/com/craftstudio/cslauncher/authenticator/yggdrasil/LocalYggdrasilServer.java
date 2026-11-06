@@ -443,9 +443,6 @@ public final class LocalYggdrasilServer {
             // ignore unsigned textures.
             boolean ours = uuid.equals(mUuid) || uuid.equals(mOfflineUuid) || uuid.matches("0{32}");
             if (!ours) {
-<<<<<<< HEAD
-                logOnce("profile-other", "[Masterix Skins] Game asked for another player's profile (" + uuid + "), not ours");
-=======
                 // Another player: CS Launcher players share their skin through the CS friends
                 // backend (offline-mode UUIDs derive from the name, so the backend can map them)
                 com.craftstudio.cslauncher.friends.RemoteSkins.Skin remote = uuid.matches("[0-9a-f]{32}")
@@ -459,7 +456,6 @@ public final class LocalYggdrasilServer {
                     } catch (GeneralSecurityException ignored) {}
                 }
                 logOnce("profile-other", "[Masterix Skins] Game asked for another player's profile (" + uuid + "), not ours");
->>>>>>> upstream/main
                 return Response.noContent();
             }
             logOnce("profile", "[Masterix Skins] Game asked for the player profile, sent skin"

@@ -55,15 +55,10 @@ public final class LocalSkinBridge {
 
             byte[] skinPng = skin == null ? null : cleanSkin(SkinLibrary.readBytes(skin));
             byte[] capePng = cape == null ? null : cleanCape(LocalSkinStore.readBytes(LocalSkinStore.capeFile(cape)));
-<<<<<<< HEAD
-            if (skin != null && skinPng == null) gameLog("[Masterix Skins] ERROR the skin \"" + skin.name + "\" is not a valid 64x64 or 64x32 PNG, skipped");
-            if (cape != null && capePng == null) gameLog("[Masterix Skins] ERROR the cape \"" + cape.name + "\" is not a valid cape PNG, skipped");
-=======
             // CS Friends: share this skin with other CS Launcher players (needs a CS account)
             com.craftstudio.cslauncher.friends.RemoteSkins.publish(account.username, skinPng, skinPng != null && skin.slim, capePng);
             if (skin != null && skinPng == null) gameLog("[Masterix Skins] ERROR the skin \"" + skin.name + "\" is not a valid 64x64 or 64x32 PNG, skipped");
             if (cape != null && capePng == null) gameLog("[Masterix Skins] ERROR the cape \"" + cape.name + "\" is not a valid cape PNG, skipped");
->>>>>>> upstream/main
             if (skinPng == null && capePng == null) return;
 
             if (account.profileId == null || NIL_UUID.equals(account.profileId)) {
