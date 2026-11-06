@@ -44,7 +44,7 @@ public final class DiscordPresenceManager {
     /** Settings key of the single on/off switch (Settings → Miscellaneous → Discord) */
     public static final String PREF_ENABLED = "discordRpc";
 
-    public static final String ASSETS_BASE_URL = "https://raw.githubusercontent.com/JoooaoooDVD/cslauncher-assets/main/";
+    public static final String ASSETS_BASE_URL = "https://raw.githubusercontent.com/minecraftplayer90909090-lang/cslauncher-assets/main/";
     public static final String LAUNCHER_ICON_URL = ASSETS_BASE_URL + "cs_launcher_logo.png";
     public static final String DISCORD_INVITE_URL = "https://discord.gg/dmteYqZZyY";
     public static final String YOUTUBE_URL = "https://youtube.com/@craft-studio-official";

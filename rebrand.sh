@@ -109,3 +109,9 @@ echo "  bacha akela CS (strings): $(grep -rhE '\bCS\b' $RES --include='strings*.
 echo "  bacha (java text): $(grep -rInE 'CS (Launcher|Engine|Friends|Skins)|Craft Studio' $JAVA | grep -vE '^[^:]*:[0-9]*:[[:space:]]*(\*|//|/\*)' | wc -l)"
 git diff --stat 2>/dev/null | tail -1
 echo "Ho gaya. Ab: git diff --stat dekho, phir commit + push."
+# Discord RPC assets -> apni cslauncher-assets repo
+DISC=$JAVA/com/craftstudio/cslauncher/discord/DiscordPresenceManager.java
+if [ -f "$DISC" ]; then
+  sed -i -E "s#(ASSETS_BASE_URL = \")[^\"]*(\";)#\1https://raw.githubusercontent.com/minecraftplayer90909090-lang/cslauncher-assets/main/\2#" "$DISC"
+  sed -i -E "s#(LAUNCHER_ICON_URL = )[^;]*;#\1ASSETS_BASE_URL + \"cs_launcher_logo.png\";#" "$DISC"
+fi
