@@ -220,7 +220,7 @@ public final class HostSettings {
     @NonNull
     public static String closedReason() {
         switch (access()) {
-            case ACCESS_FRIENDS: return "This world is open to the host's CS friends only.";
+            case ACCESS_FRIENDS: return "This world is open to the host's Masterix friends only.";
             case ACCESS_INVITED: return "This world is open to invited players only.";
             default: return "";
         }
@@ -229,7 +229,7 @@ public final class HostSettings {
     @NonNull
     public static String accessLabel(int access) {
         switch (access) {
-            case ACCESS_FRIENDS: return "CS friends only";
+            case ACCESS_FRIENDS: return "Masterix friends only";
             case ACCESS_INVITED: return "Invited players only";
             default: return "Anyone with the address";
         }

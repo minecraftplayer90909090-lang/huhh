@@ -410,7 +410,7 @@ public class GameRunner {
         File agent = new File(Tools.DIR_DATA, "cs_host_agent/cs-host-agent.jar");
         int max = com.craftstudio.cslauncher.e4mc.HostSettings.javaMaxPlayers();
         if (!agent.isFile()) {
-            Log.w(Tools.APP_NAME, "CS host agent missing, LAN worlds keep the game's limit of 8");
+            Log.w(Tools.APP_NAME, "Masterix host agent missing, LAN worlds keep the game's limit of 8");
             return;
         }
         javaArgList.add("-javaagent:" + agent.getAbsolutePath());

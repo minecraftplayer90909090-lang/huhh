@@ -590,7 +590,7 @@ public final class FriendsClient {
 
     private void rpc(String fn, JSONObject args, @Nullable Result cb) {
         String token = CsAccount.token();
-        if (token == null) { if (cb != null) cb.done("Sign in to your CS account first"); return; }
+        if (token == null) { if (cb != null) cb.done("Sign in to your Masterix account first"); return; }
         try { args.put("p_token", token); } catch (JSONException ignored) {}
         mIo.execute(() -> {
             String err = null;

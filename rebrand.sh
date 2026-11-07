@@ -126,3 +126,16 @@ find app_cs/src/main/java app_cs/src/main/res -type f \( -name '*.java' -o -name
 
 # Apna build workflow wapas (dev ka build.yml overwrite na kare)
 [ -f scripts/masterix-build.yml ] && cp scripts/masterix-build.yml .github/workflows/build.yml
+
+# Java: naye variants (CS friends / CS account / CS host / clipboard label)
+TMP2=$(mktemp)
+cat > "$TMP2" <<SED
+/^[[:space:]]*(\*|\/\/|\/\*)/!{
+s/CS friends/$SHORT friends/g
+s/CS account/$SHORT account/g
+s/CS host/$SHORT host/g
+s/newPlainText\("CS"/newPlainText("$SHORT"/g
+}
+SED
+find "$JAVA" -type f -name '*.java' ! -name 'UpdateManager.java' -print0 | xargs -0 sed -i -E -f "$TMP2"
+rm -f "$TMP2"

@@ -1052,7 +1052,7 @@ public final class FriendsPanel implements FriendsClient.Listener, E4mcPublisher
     private void copy(@Nullable String text, int toastRes) {
         if (text == null) return;
         ClipboardManager cm = (ClipboardManager) mCtx.getSystemService(Context.CLIPBOARD_SERVICE);
-        if (cm != null) cm.setPrimaryClip(ClipData.newPlainText("CS", text));
+        if (cm != null) cm.setPrimaryClip(ClipData.newPlainText("Masterix", text));
         toast(toastRes);
     }
 
