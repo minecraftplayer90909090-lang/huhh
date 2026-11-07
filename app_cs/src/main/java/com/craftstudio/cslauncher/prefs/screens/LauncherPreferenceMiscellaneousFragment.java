@@ -89,6 +89,7 @@ public class LauncherPreferenceMiscellaneousFragment extends LauncherPreferenceF
 
     private void updateVisibility(){
         requirePreference("microphoneAccessRequest").setVisible(!getLauncherActivity().checkForPermissionRationale(33, Manifest.permission.RECORD_AUDIO));
+
         requirePreference("clearMetadataCache").setVisible(new File(Tools.DIR_CACHE, "string_cache").exists());
     }
 

@@ -528,6 +528,21 @@ public class LauncherActivity extends BaseActivity {
 
     private void showStorageSetup() {
         if (isFinishing() || isDestroyed() || StorageRoot.isSetupDone(this)) return;
+        showStorageSetup(false);
+    }
+
+    /** Settings → Storage mode: the same chooser as the first launch, but it can be closed. */
+    public void reopenStorageSetup() { reopenStorageSetup(false); }
+
+    /** @param preselectCustom open on the "Default storage" (own folder) choice */
+    public void reopenStorageSetup(boolean preselectCustom) {
+        if (isFinishing() || isDestroyed()) return;
+        showStorageSetup(true, preselectCustom);
+    }
+
+    private void showStorageSetup(boolean reopened) { showStorageSetup(reopened, false); }
+
+    private void showStorageSetup(boolean reopened, boolean preselectCustom) {
         if (mStorageSetupDialog != null && mStorageSetupDialog.isShowing()) return;
         mStorageSetupDialog = new com.kdt.mcgui.StorageSetupDialog(this, new com.kdt.mcgui.StorageSetupDialog.Host() {
             @Override
@@ -553,8 +568,11 @@ public class LauncherActivity extends BaseActivity {
                 }
             }
         });
+        if (reopened) mStorageSetupDialog.allowCancel();
+        if (preselectCustom) mStorageSetupDialog.preselectCustom();
         mStorageSetupDialog.setOnDismissListener(d -> {
             mStorageSetupDialog = null;
+            if (reopened) return;
             if (StorageRoot.isSetupDone(this)) {
                 View root = findViewById(android.R.id.content);
                 if (root != null) root.postDelayed(com.craftstudio.cslauncher.tutorial.FirstLaunchSetup.isPending(this)
