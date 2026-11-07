@@ -153,6 +153,9 @@ public class GameActivity extends BaseActivity implements ControlButtonMenuListe
         // Route the native game log through the tap so the Virtual LAN host can see "Started serving on"
         com.craftstudio.cslauncher.multiplayer.LogTap.install();
         com.craftstudio.cslauncher.e4mc.E4mcPublisher.get().install();
+        // A guest the hosting settings turned away: a short notice for the host.
+        com.craftstudio.cslauncher.e4mc.E4mcPublisher.get().addRefusalListener((name, reason) ->
+                runOnUiThread(() -> android.widget.Toast.makeText(this, getString(R.string.host_refused, name + " — " + reason), android.widget.Toast.LENGTH_LONG).show()));
         com.craftstudio.cslauncher.friends.FriendsClient.get().addListener(mFriendsListener);
         instance = Instances.loadSelectedInstance();
         // The launcher hands the account file over: this process may hold a stale preference
@@ -465,6 +468,7 @@ public class GameActivity extends BaseActivity implements ControlButtonMenuListe
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        if (com.craftstudio.cslauncher.friends.ui.FriendsPanel.onActivityResult(requestCode, resultCode, data)) return;
 
         if (requestCode == 1 && resultCode == Activity.RESULT_OK) {
             // Reload PREF_DEFAULTCTRL_PATH
