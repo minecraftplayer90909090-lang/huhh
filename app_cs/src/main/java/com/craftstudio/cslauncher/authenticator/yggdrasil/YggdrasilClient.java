@@ -282,7 +282,7 @@ public final class YggdrasilClient {
         conn.setReadTimeout(TIMEOUT);
         conn.setUseCaches(false);
         conn.setInstanceFollowRedirects(true);
-        conn.setRequestProperty("User-Agent", "CS-Launcher-Plus");
+        conn.setRequestProperty("User-Agent", "Masterix-Plus");
         conn.setRequestProperty("Accept", "application/json");
         return conn;
     }

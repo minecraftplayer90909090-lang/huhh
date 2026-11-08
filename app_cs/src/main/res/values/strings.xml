@@ -422,7 +422,7 @@
     <string name="cl_info_title">How it works</string>
     <string name="cl_info_body">The launcher signs you in on that server with the Yggdrasil protocol (the same one authlib-injector uses) and gives the game the server as its session server, so servers that run on it recognise you and your skin loads from it.\n\nYour password is sent to that server only and is not stored. The launcher keeps a token and refreshes it on launch.\n\nCapes are equipped client-side in the launcher (account → skin), like for offline accounts.</string>
     <string name="cl_register">Open the server\'s website</string>
-    <string name="skin_editor_cape_only_hint">Your skin comes from the account\'s server. Capes picked here are added client-side: you (and CS Launcher friends in your worlds) see them.</string>
+    <string name="skin_editor_cape_only_hint">Your skin comes from the account\'s server. Capes picked here are added client-side: you (and Masterix friends in your worlds) see them.</string>
     <string name="ap_type_elyby">Ely.by account</string>
     <string name="ap_count_one">1 account</string>
     <string name="ap_count_many">%1$d accounts</string>

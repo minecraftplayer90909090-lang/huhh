@@ -515,7 +515,7 @@ public final class LocalYggdrasilServer {
             conn.setUseCaches(false);
             conn.setRequestMethod("HEAD".equals(r.method) ? "GET" : r.method);
             conn.setRequestProperty("Accept", "application/json");
-            conn.setRequestProperty("User-Agent", "CS-Launcher-Plus");
+            conn.setRequestProperty("User-Agent", "Masterix-Plus");
             if ("POST".equals(r.method)) {
                 conn.setDoOutput(true);
                 conn.setRequestProperty("Content-Type", "application/json; charset=utf-8");
@@ -582,10 +582,10 @@ public final class LocalYggdrasilServer {
                 // The real server must know about the join, or its online-mode servers refuse us
                 Response forwarded = forward(r, "sessionserver/session/minecraft/join");
                 if (forwarded != null) {
-                    logOnce("join-upstream", "[CS Skins] Join forwarded to the account's server (" + forwarded.code + ")");
+                    logOnce("join-upstream", "[Masterix Skins] Join forwarded to the account's server (" + forwarded.code + ")");
                     return forwarded;
                 }
-                logOnce("join-upstream-fail", "[CS Skins] The account's server did not answer the join, accepted locally");
+                logOnce("join-upstream-fail", "[Masterix Skins] The account's server did not answer the join, accepted locally");
             }
             return Response.noContent();
         }
@@ -595,7 +595,7 @@ public final class LocalYggdrasilServer {
                 // A guest with an account on the same server (e.g. another Ely.by player)
                 Response forwarded = forward(r, "sessionserver/session/minecraft/hasJoined");
                 if (forwarded != null && forwarded.code == 200) {
-                    logOnce("hasJoined-up-" + String.valueOf(username).toLowerCase(Locale.ROOT), "[CS Skins] " + username + " verified by the account's server");
+                    logOnce("hasJoined-up-" + String.valueOf(username).toLowerCase(Locale.ROOT), "[Masterix Skins] " + username + " verified by the account's server");
                     return forwarded;
                 }
             }

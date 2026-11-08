@@ -137,12 +137,12 @@ public final class LocalSkinBridge {
             if (cape == null) return;
             byte[] capePng = cleanCape(LocalSkinStore.readBytes(LocalSkinStore.capeFile(cape)));
             if (capePng == null) {
-                gameLog("[CS Skins] ERROR the cape \"" + cape.name + "\" is not a valid cape PNG, skipped");
+                gameLog("[Masterix Skins] ERROR the cape \"" + cape.name + "\" is not a valid cape PNG, skipped");
                 return;
             }
             String root = upstreamApiRoot(account);
             if (root == null) {
-                gameLog("[CS Skins] ERROR the account's server did not answer, the cape can't be added this time");
+                gameLog("[Masterix Skins] ERROR the account's server did not answer, the cape can't be added this time");
                 return;
             }
             UpstreamSkin upstream = fetchUpstreamSkin(account);
@@ -152,13 +152,13 @@ public final class LocalSkinBridge {
             LocalYggdrasilServer.setEventLog(LocalSkinBridge::gameLog);
             sServer = LocalYggdrasilServer.start(new File(Tools.DIR_DATA, "yggdrasil"), account.username,
                     account.profileId, skinPng, slim, capePng, root);
-            gameLog("[CS Skins] Skin server ready on port " + sServer.getPort() + " for " + account.username
+            gameLog("[Masterix Skins] Skin server ready on port " + sServer.getPort() + " for " + account.username
                     + " (" + account.profileId + ") in front of " + root
                     + " | skin: " + (skinPng == null ? "server default" : "from the server, " + (slim ? "slim" : "classic"))
                     + " | cape: \"" + cape.name + "\"");
         } catch (Throwable t) {
             Log.w(TAG, "Skin proxy not started, the account's server is used directly", t);
-            gameLog("[CS Skins] ERROR skin server failed to start, the cape is skipped this time: " + t);
+            gameLog("[Masterix Skins] ERROR skin server failed to start, the cape is skipped this time: " + t);
             sServer = null;
         }
     }
